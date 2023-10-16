@@ -2,7 +2,9 @@ import React from 'react'
 
 const C2 = () => {
   return (
-    <div>this is c2</div>
+    <div
+    className=' w-auto h-screen bg-yellow-50'
+    >this is c2</div>
   )
 }
 
