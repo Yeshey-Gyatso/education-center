@@ -11,6 +11,18 @@ const C1 = () => {
       <ParallaxLayer offset={0} speed={2.5}>
         <p>Parallax</p>
       </ParallaxLayer>
+      <ParallaxLayer offset={0} speed={2.5}>
+        <p>Parallax</p>
+      </ParallaxLayer>
+      <ParallaxLayer offset={0} speed={2.5}>
+        <p>Parallax</p>
+      </ParallaxLayer>
+      <ParallaxLayer offset={0} speed={2.5}>
+        <p>Parallax</p>
+      </ParallaxLayer>
+      <ParallaxLayer offset={0} speed={2.5}>
+        <p>Parallax</p>
+      </ParallaxLayer>
       </Parallax>this is C1</div>
   )
 }
