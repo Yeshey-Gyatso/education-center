@@ -1,13 +1,36 @@
 "use client";
 import Image from 'next/image'
 
+import LoadingScreen from './components/loader';
+
 import C1 from './components/c1'
 import C2 from './components/c2'
 import C3 from './components/c3'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+import { useEffect, useState } from 'react';
 
 export default function Home() {
-  return (
+  
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const fakeDatafetch =()=>{
+      setTimeout(()=>{
+        setLoading(false)
+      },4000);
+    }
+  
+    fakeDatafetch();
+  }, []);
+  
+
+
+  return 
+  loading ?(
+    <LoadingScreen/>
+  )
+  :
+  (
     <div>
         <Parallax pages={5} >
         
