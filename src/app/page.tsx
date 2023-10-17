@@ -46,6 +46,15 @@ export default function Home() {
           </div>
         </ParallaxLayer>
 
+        <ParallaxLayer offset={1} speed={1.5} 
+        className='flex justify-end '
+        >
+          {/* <div className="bg-purple-400 h-20 w-1/4 border-r-2 flex items-center ">
+            <p>I'm not</p>
+          </div> */}
+          <C1/>
+        </ParallaxLayer>
+
           </Parallax>
       
     </div>
