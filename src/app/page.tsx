@@ -19,8 +19,8 @@ export default function Home() {
 
         <ParallaxLayer sticky={{ start: 1, end: 3 }} 
         className=' flex justify-start items-center'>
-          <div className="bg-red-300 h-10 w-1/4 border-r-2">
-            <p>I'm a sticky layer</p>
+          <div className="bg-red-300 h-20 w-1/4 border-r-2 flex items-center">
+            <p className=' text-xl pl-10'>I'm a sticky layer</p>
           </div>
         </ParallaxLayer>
 
