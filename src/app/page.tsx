@@ -9,14 +9,23 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 export default function Home() {
   return (
     <div>
+        <Parallax pages={5} >
+        
+        <ParallaxLayer offset={0} speed={0.5}
+        className=' flex justify-center items-center'
+        >
+          <p className="text-xl">Scroll down</p>
+        </ParallaxLayer>
 
-       <div className="flex min-h-screen flex-col items-center justify-between ">
-      this is the main page
-      <p>this is next</p>
-    </div>
-      <C1/>
-      <C2/>
-      <C3/>
+        <ParallaxLayer sticky={{ start: 1, end: 3 }} 
+        className=' flex justify-start items-center'>
+          <div className="bg-red-300 h-10 w-1/4 border-r-2">
+            <p>I'm a sticky layer</p>
+          </div>
+        </ParallaxLayer>
+
+          </Parallax>
+      
     </div>
    
   )
