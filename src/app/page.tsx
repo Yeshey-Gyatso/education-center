@@ -25,8 +25,7 @@ export default function Home() {
   
 
 
-  return 
-  loading ?(
+  return  loading ?(
     <LoadingScreen/>
   )
   :

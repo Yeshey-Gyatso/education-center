@@ -1,14 +1,15 @@
-import React from "react"
-import styled from "styled-components"
+import React from "react";
+import styled from "styled-components";
 
 const Screen = styled.div`
   position: relative;
   height: 100vh;
   width: 100%;
-  opacity: 0;
-  animation: fade 0.4s ease-in forwards;
-  background: black;
-  @keyframes fade {
+  opacity: 1;
+  animation: fade-in 0.4s ease-in forwards, fade-out 2.8s ease-out 2s forwards;
+  background: #D6DBDC;
+
+  @keyframes fade-in {
     0% {
       opacity: 0.4;
     }
@@ -17,6 +18,15 @@ const Screen = styled.div`
     }
     100% {
       opacity: 1;
+    }
+  }
+
+  @keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
     }
   }
 `;
