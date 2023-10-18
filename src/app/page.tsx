@@ -31,7 +31,9 @@ export default function Home() {
   :
   (
     <div>
-      
+      <div>
+        navbar
+      </div>
         <Parallax pages={5} >
         
         <ParallaxLayer offset={0} speed={0.5}
