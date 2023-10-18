@@ -6,7 +6,7 @@ const Screen = styled.div`
   height: 100vh;
   width: 100%;
   opacity: 1;
-  animation: fade-in 0.4s ease-in forwards, fade-out 2.8s ease-out 2s forwards;
+  animation: fade-in 0.4s ease-in forwards, fade-out 2.8s ease-out 2.5s forwards;
   background: #D6DBDC;
 
   @keyframes fade-in {
