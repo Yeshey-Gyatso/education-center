@@ -31,6 +31,7 @@ export default function Home() {
   :
   (
     <div>
+      
         <Parallax pages={5} >
         
         <ParallaxLayer offset={0} speed={0.5}
@@ -40,19 +41,19 @@ export default function Home() {
         </ParallaxLayer>
 
         <ParallaxLayer sticky={{ start: 1, end: 3 }} 
-        className=' flex justify-start items-center'>
-          <div className="bg-red-300 h-20 w-1/4 border-r-2 flex items-center">
+        className=' flex justify-start items-center pl-10'>
+          <div className="bg-red-300 h-20 w-1/4 border-r-2 flex items-center ">
             <p className=' text-xl pl-10'>I'm a sticky layer</p>
           </div>
         </ParallaxLayer>
 
         <ParallaxLayer offset={1} speed={1.5} 
-        className='flex justify-end '
+        className='flex justify-end  pr-5'
         >
-          {/* <div className="bg-purple-400 h-20 w-1/4 border-r-2 flex items-center ">
+          <div className="bg-purple-400 h-20 w-1/4 border-r-2 flex items-center ">
             <p>I'm not</p>
-          </div> */}
-          <C1/>
+          </div>
+          {/* <C1/> */}
         </ParallaxLayer>
 
           </Parallax>
