@@ -49,11 +49,21 @@ export default function Home() {
           </div>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1} speed={1.5} 
+        <ParallaxLayer offset={1.5} speed={1.5} 
         className='flex justify-end  pr-5'
         >
           <div className="bg-purple-400 h-20 w-1/4 border-r-2 flex items-center ">
             <p>I'm not</p>
+          </div>
+          {/* <C1/> */}
+        </ParallaxLayer>
+
+
+        <ParallaxLayer offset={2.5} speed={1.5} 
+        className='flex justify-end  pr-5'
+        >
+          <div className="bg-purple-400 h-20 w-1/4 border-r-2 flex items-center ">
+            <p>not me as well</p>
           </div>
           {/* <C1/> */}
         </ParallaxLayer>
