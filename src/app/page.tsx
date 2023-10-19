@@ -8,6 +8,7 @@ import C2 from './components/c2'
 import C3 from './components/c3'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import { useEffect, useState } from 'react';
+import Navbar from './components/navbar';
 
 export default function Home() {
   
@@ -34,8 +35,14 @@ export default function Home() {
       
         <Parallax pages={5} className=' hideScrollbar' >
         
+        <ParallaxLayer sticky={{start:0 , end:1}}
+        className='bg-white z-0 '
+        >
+          <Navbar/>
+        </ParallaxLayer>
+
         <ParallaxLayer offset={0} speed={0.5}
-        className='bg-gray-400 flex justify-center items-center'
+        className='bg-gray-400 z-10 flex justify-center items-center'
         >
           <p className="text-xl">Scroll down</p>
         </ParallaxLayer>
