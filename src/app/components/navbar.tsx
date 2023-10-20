@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className=' w-screen flex  justify-between items-center '>
+    <div className=' w-screen flex  justify-between items-center cursor-default'>
       <div className=' p-2'>
         navbar logo
       </div>
