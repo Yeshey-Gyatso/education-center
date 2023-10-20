@@ -31,16 +31,18 @@ export default function Home() {
   )
   :
   (
-   
-      
-        <Parallax pages={5} className=' hideScrollbar' >
+   <div> 
+    <div className=' fixed z-10'>
+      <Navbar/>
+    </div>
+     <Parallax pages={5} className=' hideScrollbar' >
         
-        <ParallaxLayer sticky={{start:0 , end:1}}
+        {/* <ParallaxLayer sticky={{start:0 , end:1}}
         className='bg-white z-0 '
         >
-          <Navbar/>
-        </ParallaxLayer>
-
+         
+        </ParallaxLayer> */}
+        
         <ParallaxLayer offset={0} speed={0.5}
         className='bg-gray-400 z-10 flex justify-center items-center'
         >
@@ -74,6 +76,9 @@ export default function Home() {
         </ParallaxLayer>
 
           </Parallax>
+   </div>
+      
+       
       
    
    
