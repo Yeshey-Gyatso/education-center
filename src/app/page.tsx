@@ -45,9 +45,7 @@ export default function Home() {
          
         </ParallaxLayer> */}
         
-        <ParallaxLayer offset={0} speed={0.5}
-        className='bg-neutral-300 z-10 flex justify-center items-center'
-        >
+        <ParallaxLayer offset={0} speed={0.5}>
           <Landing/>
         </ParallaxLayer>
 
