@@ -10,6 +10,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import { useEffect, useState } from 'react';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
+import Landing from './components/landing';
 
 export default function Home() {
   
@@ -47,7 +48,7 @@ export default function Home() {
         <ParallaxLayer offset={0} speed={0.5}
         className='bg-neutral-300 z-10 flex justify-center items-center'
         >
-          <p className="text-xl">Scroll down</p>
+          <Landing/>
         </ParallaxLayer>
 
         <ParallaxLayer sticky={{ start: 1, end: 3 }} 
@@ -90,7 +91,7 @@ export default function Home() {
         <ParallaxLayer offset={4} speed={0.5}
         className='bg-neutral-300 z-10 flex justify-center items-center'
         >
-          <p className="text-xl">Scroll down</p>
+          <p className="text-xl">Footer</p>
         </ParallaxLayer>
 
           </Parallax>
