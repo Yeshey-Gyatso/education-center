@@ -16,7 +16,7 @@ const Landing = () => {
         <div className="col-span-1 bg-purple-200 p-4">9</div>
         <div className="col-span-1 bg-cyan-200 p-4">10</div>
         <div className="col-span-1 bg-gray-200 p-4">11</div>
-        <div className="col-span-1 bg-amber-800 p-4">12</div>
+        <div className="col-span-1 bg-amber-200 p-4">12</div>
     </div>
         
         
