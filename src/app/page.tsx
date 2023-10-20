@@ -38,13 +38,7 @@ export default function Home() {
       <Navbar/>
     </div>
      <Parallax pages={5} className=' hideScrollbar' >
-        
-        {/* <ParallaxLayer sticky={{start:0 , end:1}}
-        className='bg-white z-0 '
-        >
          
-        </ParallaxLayer> */}
-        
         <ParallaxLayer offset={0} speed={0.5}>
           <Landing/>
         </ParallaxLayer>
