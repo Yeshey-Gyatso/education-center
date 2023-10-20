@@ -44,7 +44,7 @@ export default function Home() {
         </ParallaxLayer> */}
         
         <ParallaxLayer offset={0} speed={0.5}
-        className='bg-gray-400 z-10 flex justify-center items-center'
+        className='bg-neutral-300 z-10 flex justify-center items-center'
         >
           <p className="text-xl">Scroll down</p>
         </ParallaxLayer>
