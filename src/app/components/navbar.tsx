@@ -11,48 +11,65 @@ const Navbar = () => {
   <div className=' p-2'>
     navbar logo
   </div>
-  <ul className=' flex gap-4 items-center p-2'>
-    <li>
-      <Link href="/" >Home</Link>
+  <ul className=' flex gap-4 items-center p-2 '>
+    <li className='hover:scale-105
+          transition-transform duration-300 ease-in-out'>
+      <Link href="/">Home</Link>
     </li>
-    <li>
+    <li className='hover:scale-105
+          transition-transform duration-300 ease-in-out'>
       <Link href="/about">About Us</Link>
     </li>
-    <li>
+    <li className='hover:scale-105
+          transition-transform duration-300 ease-in-out'>
       <Link href="/courses">Courses</Link>
     </li>
-    <li>
+    <li className='hover:scale-105
+          transition-transform duration-300 ease-in-out'>
       <Link href="/faculty1">Faculty</Link>
     </li>
-    <li>
+    <li className='hover:scale-105
+          transition-transform duration-300 ease-in-out'>
       <Link href="/gallery">Gallery</Link>
     </li>
-    <li>
+    <li className='hover:scale-105
+          transition-transform duration-300 ease-in-out'>
       <Link href="/achievement">Achievement</Link>
     </li>
-    <li>
+    <li className='hover:scale-105
+          transition-transform duration-300 ease-in-out'>
       <Link href="/career">Career</Link>
     </li>
-    <li>
+    <li className='hover:scale-105
+          transition-transform duration-300 ease-in-out'>
       <Link href="/contact-us">Contact Us</Link>
     </li>
   </ul>
 
       <ul className=' flex gap-3 items-center p-3'>
-        <li>
+        <li className='hover:scale-105
+          transition-transform duration-300 ease-in-out'>
         <Link href="https://www.youtube.com/channel/UCyLuGOimahg8ci6_dFgsLBw"><img 
         className=' h-10 w-9'
         src="yt.svg" alt="" /></Link>
           </li>
+          <li>
           <Link href="https://www.facebook.com/"><img 
         className=' h-7 w-10'
         src="fb.svg" alt="" /></Link>
-        <Link href="https://www.facebook.com/"><img 
+          </li>
+          
+          <li>
+          <Link href="https://www.linkedin.com/in/yeshey-gyatso-a180b21a9/"><img 
         className=' h-8 w-10'
         src="li.svg" alt="" /></Link>
-        <Link href="https://www.facebook.com/"><img 
+          </li>
+        <li>
+        <Link href="https://www.instagram.com/explore/"><img 
         className=' h-8 w-10'
         src="ig.svg" alt="" /></Link>
+        </li>
+        
       </ul>
       </div>
   )
