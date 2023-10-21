@@ -4,16 +4,11 @@ const Landing = () => {
   return (
     <div className=' h-full  w-screen '
     >
-        <div style={{ position: 'relative' }} className=' z-20'>
-        <Image
-        src="/bg1.jpg" // path relative to the 'public' folder
+        <Image className=' absolute -z-10'
+        src="/bg1.jpg" alt={'image'}    
         layout="fill"
-        objectFit="cover" // Change to suit your needs
-        quality={100} // Change to suit your needs
-        alt="Background Image"
+        objectFit="cover"    
         />
-
-        </div>
         {/* <div className='bg-neutral-300 z-10 grid grid-cols-12 h-full  relative w-screen '>
         <div className="col-span-1 bg-blue-200 p-4"></div>
         <div className="col-span-1 bg-green-200 p-4"></div>
