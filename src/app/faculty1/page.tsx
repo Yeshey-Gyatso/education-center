@@ -1,10 +1,11 @@
 import React from 'react'
 import Faculty from './faculty'
 
-const Facultypage = () => {
+
+const FacultyPage = () => {
   return (
     <div><Faculty/></div>
   )
 }
 
-export default Facultypage
+export default FacultyPage
