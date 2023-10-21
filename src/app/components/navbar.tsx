@@ -38,15 +38,21 @@ const Navbar = () => {
     </li>
   </ul>
 
-      <ul className=' flex gap-3 items-center p-2'>
+      <ul className=' flex gap-3 items-center p-3'>
         <li>
         <Link href="https://www.youtube.com/channel/UCyLuGOimahg8ci6_dFgsLBw"><img 
-        className=' h-10 w-10'
+        className=' h-10 w-9'
         src="yt.svg" alt="" /></Link>
           </li>
-        <li>facebook</li>
-        <li>linkedIn</li>
-        <li>yt</li>
+          <Link href="https://www.facebook.com/"><img 
+        className=' h-7 w-10'
+        src="fb.svg" alt="" /></Link>
+        <Link href="https://www.facebook.com/"><img 
+        className=' h-8 w-10'
+        src="li.svg" alt="" /></Link>
+        <Link href="https://www.facebook.com/"><img 
+        className=' h-8 w-10'
+        src="ig.svg" alt="" /></Link>
       </ul>
       </div>
   )
