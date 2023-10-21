@@ -5,7 +5,7 @@ const Landing = () => {
     <div className=' h-full  w-screen '
     >
         <Image className=' absolute -z-10'
-        src="/bg1.jpg" alt={'image'}    
+        src="/wave1.jpg" alt={'image'}    
         layout="fill"
         objectFit="cover"    
         />
