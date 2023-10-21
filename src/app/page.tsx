@@ -20,7 +20,7 @@ export default function Home() {
     const fakeDatafetch =()=>{
       setTimeout(()=>{
         setLoading(false)
-      },3000);
+      },2000);
     }
   
     fakeDatafetch();

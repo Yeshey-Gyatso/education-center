@@ -6,7 +6,7 @@ const Screen = styled.div`
   height: 100vh;
   width: 100%;
   opacity: 1;
-  animation: fade-in 0.4s ease-in forwards, fade-out 4s ease-out 1.5s forwards;
+  animation: fade-in 0.4s ease-in forwards, fade-out 4s ease-out 1s forwards;
   background: #D6DBDC;
 
   @keyframes fade-in {
@@ -46,13 +46,13 @@ const Balls = styled.div`
     animation: oscillate 0.7s ease-in forwards infinite;
   }
   .one {
-    animation-delay: 0.5s;
+    animation-delay: 0.25s;
   }
   .two {
-    animation-delay: 1s;
+    animation-delay: 0.5s;
   }
   .three {
-    animation-delay: 2s;
+    animation-delay: 1s;
   }
   @keyframes oscillate {
     0% {
