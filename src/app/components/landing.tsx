@@ -19,18 +19,25 @@ const Landing = () => {
         </div>
 
         <div className="col-span-8">
-          <div className=" p-4 pl-72">
-            <div className=' bg-white' />
-            <p className=' text-4xl'>"Your first step towards success"</p>
+          <div className=" p-4 md:pl-72">
+            <p className=' text-4xl border-b-4 border-white'>"Your first step towards success"</p>
+          </div>
+            <br /><br />
+          <div className=" p-4 text-xl md:pl-72">
+          <p>This is some additional content for Text 1. You can add more details or information here.</p>
           </div>
 
-          <div className="bg-indigo-200 p-4">
-            <p>Text 1</p>
+          <div className="bg-pink-200 p-4 md:pl-80">
+          <p className=' font-thin'> Here's additional content for Text 2.</p>
           </div>
-
-          <div className="bg-pink-200 p-4">
-            <p>Text 2</p>
-          </div>
+          <button className=' bg-gray-200 p-4
+           rounded-full shadow-lg hover:scale-105 
+           transition-transform duration-300 ease-in-out
+          '>button 1</button>
+          <button className=' 
+          rounded-full shadow-lg hover:scale-105
+          transition-transform duration-300 ease-in-out
+          bg-gray-200 p-4'>button 2</button>
         </div>
       </div>
     </div>
