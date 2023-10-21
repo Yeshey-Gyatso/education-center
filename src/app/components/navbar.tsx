@@ -40,7 +40,9 @@ const Navbar = () => {
 
       <ul className=' flex gap-3 items-center p-2'>
         <li>
-          ig
+        <Link href="https://www.youtube.com/channel/UCyLuGOimahg8ci6_dFgsLBw"><img 
+        className=' h-10 w-10'
+        src="yt.svg" alt="" /></Link>
           </li>
         <li>facebook</li>
         <li>linkedIn</li>
