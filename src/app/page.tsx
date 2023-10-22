@@ -82,7 +82,7 @@ export default function Home() {
         >
           <div className=" rounded-s-full bg-sky-400 h-32 w-2/4  flex items-center ">
           
-        <Lottie className='' animationData={animationData} loop={true} />
+        <Lottie className=' ml-40' animationData={animationData} loop={true} />
           
           
           </div>
