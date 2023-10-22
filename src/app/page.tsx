@@ -68,7 +68,7 @@ export default function Home() {
         className='flex justify-end z-10  pr-4'
         >
           <div className=" mt-20 rounded-lg 
-          shadow-lg bg-emerald-400  h-2/4 p-4 w-2/4  flex flex-col items-center ">
+          shadow-lg bg-sky-300 h-2/4 p-4 w-2/4  flex flex-col items-center ">
           <h1 className=' text-3xl p-5 font-serif'>Our Focus</h1>
             <p className=' font-sans'>Our primary goal at this UPSC coaching center is to empower and guide aspirants on their journey to becoming successful civil servants. We are committed to providing comprehensive, top-quality education and support to help our students excel in the highly competitive civil services examination. Our mission is to instill in them not just the knowledge and skills necessary to pass the exam, but also the values and ethical principles that are integral to public service. We aspire to create a nurturing and motivating environment that fosters personal growth, critical thinking, and leadership qualities. Ultimately, our aim is to see our students succeed in their pursuit of serving the nation, making a meaningful impact on society, 
               and upholding the highest standards of governance.</p>
