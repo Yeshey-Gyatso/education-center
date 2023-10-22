@@ -79,7 +79,7 @@ export default function Home() {
         <ParallaxLayer offset={2.5} speed={1.5} 
         className='flex justify-end  pr-5'
         >
-          <div className="bg-purple-400 h-32 w-2/4 md:mr-40 flex items-center ">
+          <div className="bg-purple-400 h-32 w-2/4 md:mr-10 flex items-center ">
           <Lottie className='' animationData={animationData2} loop={true} />
            <p className=' font-sans text-lg'>"Education is the key that unlocks the doors to a world of possibilities."</p>
           </div>
