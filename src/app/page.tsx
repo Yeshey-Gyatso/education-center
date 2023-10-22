@@ -104,11 +104,12 @@ export default function Home() {
         <ParallaxLayer offset={4} speed={0.5}
         
         >
-          <img src="P.png" alt="" />
-          <Footer/>
+           <Footer/>
+          
         </ParallaxLayer>
-
+       
           </Parallax>
+          
          
    </div>
       
