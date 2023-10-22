@@ -13,6 +13,7 @@ import Navbar from './components/navbar';
 import Footer from './components/footer';
 import Landing from './components/landing';
 
+
 export default function Home() {
   const [animationData, setAnimationData] = useState(null);
   const [animationData2, setAnimationData2] = useState(null);
@@ -101,9 +102,10 @@ export default function Home() {
 
         
         <ParallaxLayer offset={4} speed={0.5}
-        className='bg-neutral-300 z-10 flex justify-center items-center'
+        
         >
-          <p className="text-xl">Footer</p>
+          <img src="P.png" alt="" />
+          <Footer/>
         </ParallaxLayer>
 
           </Parallax>
