@@ -1,4 +1,4 @@
-"use client";
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -6,7 +6,11 @@ const Footer = () => {
   return (
    <div className=' shadow-2xl'>
 <div className="relative bg-gray-200 pt-8 pb-6 z-10">
-<img src="aboutUs.svg" alt="" className='relative left-1/2 w-1/4 h-1/4'/>
+{/* <img src="aboutUs.svg" alt="" className='relative left-1/2 w-1/4 h-1/4'/> */}
+  <Image src={'aboutUs.svg'} alt={''}
+  height={300}
+  width={300}
+  ></Image>
   <div className="container mx-auto px-4">
     <div className="flex flex-wrap text-left lg:text-left">
       <div className="w-full lg:w-6/12 px-4">
