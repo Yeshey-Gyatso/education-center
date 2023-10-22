@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
+import Lottie from "lottie-react";
 import styled from "styled-components";
 
 const Screen = styled.div`
@@ -68,14 +70,24 @@ const Balls = styled.div`
 `;
 
 const LoadingScreen = () => {
+  const [animationData, setAnimationData] = useState(null);
+  useEffect(() => {
+    fetch('/animation.json')
+      .then(response => response.json())
+      .then(data => setAnimationData(data));
+  }, []);
   return (
-    <Screen>
-      <Balls>
-        <div className="ball one"></div>
-        <div className="ball two"></div>
-        <div className="ball three"></div>
-      </Balls>
-    </Screen>
+    <div className="flex justify-center items-center h-screen">
+   
+    <Lottie animationData={animationData} loop={true} />
+  </div>
+    // <Screen>
+    //   <Balls>
+    //     <div className="ball one"></div>
+    //     <div className="ball two"></div>
+    //     <div className="ball three"></div>
+    //   </Balls>
+    // </Screen>
   );
 };
 
