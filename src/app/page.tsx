@@ -57,7 +57,7 @@ export default function Home() {
           <Landing/>
         </ParallaxLayer>
 
-        <ParallaxLayer sticky={{ start: 1, end: 3 }} 
+        <ParallaxLayer sticky={{ start: 1, end: 3.2 }} 
         className=' flex justify-start items-center '>
           <div className=" -ml-2 bg-purple-400 h-32 w-2/4 flex items-center ">
             <Lottie className='' animationData={animationData2} loop={true} />
@@ -90,11 +90,26 @@ export default function Home() {
          
         </ParallaxLayer>
 
-        <ParallaxLayer offset={3.5} speed={1.5} 
+        <ParallaxLayer offset={3} speed={1.5} 
         className='flex justify-end  pr-5'
         >
-          <div className="bg-yellow-400 h-20 w-1/4 border-r-2 flex items-center ">
-            <p>not me as well</p>
+          <div className="bg-yellow-400 rounded-lg shadow-lg h-2/4 w-2/4 border-r-2 flex flex-row items-center ">
+          <h1 className=' text-3xl p-5 font-serif'>Our Story:</h1>
+          <div className=' flex flex-col'>
+          
+            <p className=' font-sans'>"At Pedestal Education, we are a passionate and dedicated team committed to nurturing the academic and personal growth of our students. 
+            We provide a supportive and inspiring environment,
+            personalized guidance, and the tools for success. Our mission is to empower individuals, regardless of their background, to achieve their educational and professional 
+            aspirations. With a focus on excellence, inclusivity, 
+            and holistic development, we're here to shape futures and unlock the full potential of our students."
+            </p>
+            {/* <button className='bg-gray-200 p-4 mr-10 mt-36
+           rounded-full shadow-lg 
+           hover:scale-105 transition-transform duration-300 ease-in-out ml-72
+          '>click here to know more</button> */}
+          </div>
+          
+          
           </div>
         
         </ParallaxLayer>
