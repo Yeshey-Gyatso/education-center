@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -11,17 +12,36 @@ const Footer = () => {
         <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
           Find us on any of these platforms, we respond 1-2 business days.
         </h5>
-        <div className="mt-6 lg:mb-0 mb-6">
-          <button className="bg-white 
-          text-lightBlue-400 shadow-lg font-normal 
-          h-10 w-10 items-center justify-center align-center 
-          rounded-full outline-none 
-          focus:outline-none mr-2" type="button">
-            <i className="fab fa-twitter"></i></button><button className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-            <i className="fab fa-facebook-square"></i></button><button className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-            <i className="fab fa-dribbble"></i></button><button className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-            <i className="fab fa-github"></i>
-          </button>
+        <div className="mt-6 lg:mb-0 mb-6 flex">
+          <div className=' -mt-2'>
+          <Link href="https://www.youtube.com/channel/UCyLuGOimahg8ci6_dFgsLBw">
+            <img 
+        className=' h-10 w-9'
+        src="yt.svg" alt="" /> </Link>
+          </div>
+            
+            <div className='hover:scale-105
+          transition-transform duration-300 ease-in-out'>
+          <Link href="https://www.facebook.com/"><img 
+        className=' h-7 w-10'
+        src="fb.svg" alt="" /></Link>
+          </div>
+            
+          
+          <div className='hover:scale-105
+          transition-transform duration-300 ease-in-out'>
+          <Link href="https://www.linkedin.com/in/yeshey-gyatso-a180b21a9/"><img 
+        className=' h-8 w-10'
+        src="li.svg" alt="" /></Link>
+          </div>
+          
+          
+          <div className='hover:scale-105
+          transition-transform duration-300 ease-in-out'>
+        <Link href="https://www.instagram.com/explore/"><img 
+        className=' h-8 w-10'
+        src="ig.svg" alt="" /></Link>
+        </div> 
         </div>
       </div>
       <div className="w-full lg:w-6/12 px-4">
