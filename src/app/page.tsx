@@ -15,6 +15,7 @@ import Landing from './components/landing';
 
 export default function Home() {
   const [animationData, setAnimationData] = useState(null);
+  const [animationData2, setAnimationData2] = useState(null);
 
   const [loading, setLoading] = useState(true)
 
@@ -34,6 +35,12 @@ export default function Home() {
       .then(data => setAnimationData(data));
   }, []);
   
+  useEffect(() => {
+    fetch('/self.json')
+      .then(response => response.json())
+      .then(data => setAnimationData2(data));
+  }, []);
+
   return  loading ?(
     <LoadingScreen/>
   )
@@ -59,7 +66,8 @@ export default function Home() {
         <ParallaxLayer offset={1.5} speed={1.5} 
         className='flex justify-end  pr-5'
         >
-          <div className=" mt-20 rounded-lg shadow-lg bg-teal-400 mr-20 h-2/4 p-4 w-2/4 border-r-2 flex flex-col items-center ">
+          <div className=" mt-20 rounded-lg 
+          shadow-lg bg-emerald-400 mr-20 h-2/4 p-4 w-2/4 border-r-2 flex flex-col items-center ">
           <h1 className=' text-3xl p-5 font-serif'>Our Focus</h1>
             <p className=' font-sans'>Our primary goal at this UPSC coaching center is to empower and guide aspirants on their journey to becoming successful civil servants. We are committed to providing comprehensive, top-quality education and support to help our students excel in the highly competitive civil services examination. Our mission is to instill in them not just the knowledge and skills necessary to pass the exam, but also the values and ethical principles that are integral to public service. We aspire to create a nurturing and motivating environment that fosters personal growth, critical thinking, and leadership qualities. Ultimately, our aim is to see our students succeed in their pursuit of serving the nation, making a meaningful impact on society, 
               and upholding the highest standards of governance.</p>
@@ -71,8 +79,9 @@ export default function Home() {
         <ParallaxLayer offset={2.5} speed={1.5} 
         className='flex justify-end  pr-5'
         >
-          <div className="bg-purple-400 h-20 w-1/4 border-r-2 flex items-center ">
-            <p>not me as well</p>
+          <div className="bg-purple-400 h-32 w-2/4 md:mr-40 flex items-center ">
+          <Lottie className='' animationData={animationData2} loop={true} />
+           <p className=' font-sans text-lg'>"Education is the key that unlocks the doors to a world of possibilities."</p>
           </div>
           {/* <C1/> */}
         </ParallaxLayer>
