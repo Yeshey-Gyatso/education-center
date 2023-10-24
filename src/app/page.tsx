@@ -12,6 +12,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import Navbar from './components/navbar';
 import Footer from './components/footer';
 import Landing from './components/landing';
+import Contactform from './components/contact';
 
 
 export default function Home() {
@@ -126,7 +127,7 @@ export default function Home() {
         <ParallaxLayer offset={4} speed={0.5}
         
         >
-           <Footer/>
+           <Contactform/>
           
         </ParallaxLayer>
         <ParallaxLayer offset={5} speed={0.5}
