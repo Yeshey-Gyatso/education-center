@@ -5,8 +5,8 @@ import React from 'react'
 const Footer = () => {
   return (
    <div className=' shadow-2xl'>
-<div className="relative bg-gray-200 pt-8 pb-6 z-10">
-{/* <img src="aboutUs.svg" alt="" className='relative left-1/2 w-1/4 h-1/4'/> */}
+    <div className=" bg-gray-200 pt-8 pb-6 z-10">
+      {/* <img src="aboutUs.svg" alt="" className='relative left-1/2 w-1/4 h-1/4'/> */}
   <Image src={'aboutUs.svg'} alt={''}
   height={300}
   width={300}
@@ -93,7 +93,7 @@ const Footer = () => {
     <div className="flex flex-wrap items-center md:justify-between justify-center">
       <div className="w-full md:w-4/12 px-4 mx-auto text-center">
         <div className="text-sm text-blueGray-500 font-semibold py-1">
-          Copyright © <span id="get-current-year">2023</span><a href="" className="text-gray-500 hover:text-gray-800" /> Note JS by
+          Copyright © <span id="get-current-year">2023</span><a href="" className="text-gray-500 hover:text-gray-800" /> NextJs 13 by
           <a href="mellowgyatso.com" className="text-gray-500 hover:text-gray-800"> Mellow Gyatso</a>.
         </div>
       </div>
