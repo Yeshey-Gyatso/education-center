@@ -14,10 +14,12 @@ import Footer from './components/footer';
 import Landing from './components/landing';
 import Contactform from './components/contact';
 import Goals from './components/goals';
+import SecondParallex from './components/secondparallex';
+
 
 
 export default function Home() {
-  const [animationData, setAnimationData] = useState(null);
+
   const [animationData2, setAnimationData2] = useState(null);
 
   const [loading, setLoading] = useState(true)
@@ -32,12 +34,6 @@ export default function Home() {
     fakeDatafetch();
   }, []);
 
-  useEffect(() => {
-    fetch('/wheel.json')
-      .then(response => response.json())
-      .then(data => setAnimationData(data));
-  }, []);
-  
   useEffect(() => {
     fetch('/self.json')
       .then(response => response.json())
@@ -85,12 +81,8 @@ export default function Home() {
         <ParallaxLayer offset={2.5} speed={1.5} 
         className='flex justify-end '
         >
-          <div className=" rounded-s-full bg-sky-400 h-32 w-2/4  flex items-center ">
-          
-        <Lottie className=' ml-40' animationData={animationData} loop={true} />
-          
-          
-          </div>
+          <SecondParallex/>
+         
          
         </ParallaxLayer>
 
@@ -100,19 +92,13 @@ export default function Home() {
           </div>
         </ParallaxLayer>
 
-
-        
         <ParallaxLayer offset={4} speed={0.5}
-        
         >
            <Contactform/>
-          
         </ParallaxLayer>
         <ParallaxLayer offset={5} speed={0.5}
-        
         >
            <Footer/>
-          
         </ParallaxLayer>
           </Parallax>
           

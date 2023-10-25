@@ -2,9 +2,6 @@ import React from 'react'
 import Link from 'next/link';
 
 const Navbar = () => {
-
-  
-
   return (
     
     <div className=' w-screen flex  justify-between items-center cursor-default'>
