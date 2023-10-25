@@ -10,7 +10,7 @@ const Goals = () => {
           
             <ul className='lg:ml-40 font-serif'>
               <li className=' text-3xl  flex items-center'> <span>Quality and affordable guidance</span>
-              <TiTickOutline className="text-7xl pl-3"/>
+              <TiTickOutline className="text-7xl pl-3 "/>
               </li>
               <br />
               <li className=' text-3xl '><span className=' flex items-center '>Class room programme <TiTickOutline className="text-7xl pl-3"/></span>

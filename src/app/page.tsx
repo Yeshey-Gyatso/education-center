@@ -82,8 +82,6 @@ export default function Home() {
         className='flex justify-end '
         >
           <SecondParallex/>
-         
-         
         </ParallaxLayer>
 
         <ParallaxLayer offset={3} speed={1.5} >
