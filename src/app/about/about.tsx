@@ -20,9 +20,9 @@ const About = () => {
       </div>
 
       <div className='  p-20  w-screen bg-gray-300 flex flex-col justify-center items-center'>
-      <p>We endeavour to make each of their students succeed in related exams providing various classroom programs courses</p>
+      <p className=' text-lg'>We endeavour to make each of their students succeed in related exams providing various classroom programs courses</p>
       <br />
-      <ul>
+      <ul className=' text-lg '>
         <li>UPSC Classroom Foundation course</li>
         <li>Sikkim Public Service Commission exams foundation course</li>
         <li>Integrated UPSC/SPSC foundation course</li>
