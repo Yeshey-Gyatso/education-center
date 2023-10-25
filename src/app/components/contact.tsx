@@ -4,7 +4,7 @@ const Contactform = () => {
   return (
     <div id='contact'
     className=' w-full h-screen
-    bg-gradient-to-b from-orange-800 to-black
+    bg-gradient-to-b from-teal-800 to-black
      p-4 text-white pb-10 
     
      ' >
@@ -13,7 +13,7 @@ const Contactform = () => {
             <div className=' md:pb-8 md:pt-20 '>
                 <p className=' text-4xl font-bold inline border-b-4
                  border-gray-500 cursor-default 
-                '>Contact</p>
+                '>Leave us a message</p>
                 <p className=' py-6 cursor-default'>Submit the form below to get in touch with me</p>
             </div>
             <div className=' flex justify-center items-center'>
