@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {TiTickOutline} from "react-icons/ti"
 const Goals = () => {
   return (
     <div className="bg-yellow-400 rounded-lg shadow-lg h-screen w-screen border-r-2 flex flex-row  items-center ">
@@ -7,17 +7,25 @@ const Goals = () => {
           <div className=' flex flex-col justify-center items-center'>
           
             <ul className='lg:ml-40 font-serif'>
-              <li className=' text-3xl border-b-4 border-blue-400'>Quality and affordable guidance
+              <li className=' text-3xl  flex items-center'> <span>Quality and affordable guidance</span>
+              <TiTickOutline className="text-7xl pl-3"/>
+              </li>
+              <br />
+              <li className=' text-3xl '><span className=' flex items-center '>Class room programme <TiTickOutline className="text-7xl pl-3"/></span>
               
               </li>
               <br />
-              <li className=' text-3xl border-b-4 border-blue-400'>Class room programme</li>
+              <li className=' text-3xl  flex items-center'><span>An Inclusive study space</span>
+              <TiTickOutline className="text-7xl pl-3"/>
+              </li>
               <br />
-              <li className=' text-3xl border-b-4 border-blue-400'>An Inclusive study space</li>
+              <li className=' text-3xl  flex items-center'><span>All-round personal mentorship</span>
+              <TiTickOutline className="text-7xl pl-3"/>
+              </li>
               <br />
-              <li className=' text-3xl border-b-4 border-blue-400'>All-round personal mentorship</li>
-              <br />
-              <li className=' text-3xl border-b-4 border-blue-400'> Employment focused philosophy</li>
+              <li className=' text-3xl  flex items-center'> <span>Employment focused philosophy</span>
+              <TiTickOutline className="text-7xl pl-3"/>
+              </li>
             </ul>
             {/* <button className='bg-gray-200 p-4 mr-10 mt-36
            rounded-full shadow-lg 
