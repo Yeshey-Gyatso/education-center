@@ -13,6 +13,7 @@ import Navbar from './components/navbar';
 import Footer from './components/footer';
 import Landing from './components/landing';
 import Contactform from './components/contact';
+import Goals from './components/goals';
 
 
 export default function Home() {
@@ -52,8 +53,8 @@ export default function Home() {
     <div className=' fixed z-10'>
       <Navbar/>
     </div>
-     <Parallax pages={6} className=' ' >
-     {/* hideScrollbar */}
+     <Parallax pages={6} className=' hideScrollbar ' >
+     
         <ParallaxLayer offset={0} speed={0.5}>
           <Landing/>
         </ParallaxLayer>
@@ -93,32 +94,12 @@ export default function Home() {
          
         </ParallaxLayer>
 
-        <ParallaxLayer offset={3} speed={1.5} 
-        className='flex justify-end  pr-5'
-        >
-          <div className="bg-yellow-400 rounded-lg shadow-lg h-screen w-screen border-r-2 flex flex-row  items-center ">
-          <h1 className=' text-5xl ml-10 p-5 font-serif text-zinc-700 font-bold'>OUR OBJECTIVES:</h1>
-          <div className=' flex flex-col justify-center items-center'>
-          
-            <ul className='lg:ml-40 font-serif'>
-              <li className=' text-3xl border-b-4 border-blue-400'>Quality and affordable guidance</li>
-              <br />
-              <li className=' text-3xl border-b-4 border-blue-400'>Class room programme</li>
-              <br />
-              <li className=' text-3xl border-b-4 border-blue-400'>An Inclusive study space</li>
-              <br />
-              <li className=' text-3xl border-b-4 border-blue-400'>All-round personal mentorship</li>
-              <br />
-              <li className=' text-3xl border-b-4 border-blue-400'> Employment focused philosophy</li>
-            </ul>
-            {/* <button className='bg-gray-200 p-4 mr-10 mt-36
-           rounded-full shadow-lg 
-           hover:scale-105 transition-transform duration-300 ease-in-out ml-72
-          '>click here to know more</button> */}
+        <ParallaxLayer offset={3} speed={1.5} >
+          <div className=' p-4 '>
+          <Goals/>
+
           </div>
           
-          
-          </div>
         
         </ParallaxLayer>
 

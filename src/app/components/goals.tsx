@@ -7,7 +7,9 @@ const Goals = () => {
           <div className=' flex flex-col justify-center items-center'>
           
             <ul className='lg:ml-40 font-serif'>
-              <li className=' text-3xl border-b-4 border-blue-400'>Quality and affordable guidance</li>
+              <li className=' text-3xl border-b-4 border-blue-400'>Quality and affordable guidance
+              
+              </li>
               <br />
               <li className=' text-3xl border-b-4 border-blue-400'>Class room programme</li>
               <br />
