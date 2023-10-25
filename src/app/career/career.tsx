@@ -5,7 +5,7 @@ const Career = () => {
   return (
     <div>
         <Navbar/>
-        Career</div>
+        <img src="/board.png" alt="" /></div>
  
 
  )

@@ -74,7 +74,7 @@ export default function Home() {
             to overcome any obstacle and illuminate a pathway to not only civil service exams but various other government exams. We at Pedestal pride ourselves in our student centric approach and have assembled a well rounded team to help aspirants in any way they require.
             </p>
             </div>
-          {/* <C1/> */}
+    
         </ParallaxLayer>
 
 
