@@ -6,8 +6,7 @@ const Footer = () => {
   return (
    <div className=' shadow-2xl'>
     <div className=" bg-gray-200 pt-8 pb-6 z-10">
-      {/* <img src="aboutUs.svg" alt="" className='relative left-1/2 w-1/4 h-1/4'/> */}
-  <Image src={'aboutUs.svg'} alt={''}
+       <Image src={'aboutUs.svg'} alt={''}
   height={300}
   width={300}
   ></Image>
