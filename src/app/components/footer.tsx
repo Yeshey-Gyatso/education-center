@@ -5,7 +5,7 @@ import React from 'react'
 const Footer = () => {
   return (
    <div className=' h-full w-screen  '>
-    <div className=" bg-gray-200 pt-8 pb-6 z-10">
+    <div className=" bg-gray-200 pt-52 pb-6 z-10">
        <Image src={'aboutUs.svg'} alt={''}
   height={300}
   width={300}
