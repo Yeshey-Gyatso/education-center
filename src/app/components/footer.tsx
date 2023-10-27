@@ -32,14 +32,12 @@ const Footer = () => {
         src="fb.svg" alt="" /></Link>
           </div>
             
-          
           <div className='hover:scale-105
           transition-transform duration-300 ease-in-out'>
           <Link href="https://www.linkedin.com/in/yeshey-gyatso-a180b21a9/"><img 
         className=' h-8 w-10'
         src="li.svg" alt="" /></Link>
           </div>
-          
           
           <div className='hover:scale-105
           transition-transform duration-300 ease-in-out'>

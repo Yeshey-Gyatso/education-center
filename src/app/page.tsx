@@ -4,9 +4,7 @@ import Image from 'next/image'
 import LoadingScreen from './components/loader';
 import React, { useEffect, useState } from "react";
 import Lottie from "lottie-react";
-import C1 from './components/c1'
-import C2 from './components/c2'
-import C3 from './components/c3'
+
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 import Navbar from './components/navbar';
