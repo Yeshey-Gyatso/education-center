@@ -5,11 +5,11 @@ import React from 'react'
 const Footer = () => {
   return (
    <div className=' h-full w-screen  '>
-    <div className=" bg-gray-200 pt-52 pb-6 z-10">
+    <div className=" bg-gray-200 pl-20 pt-20 pb-6 z-10">
        <Image src={'aboutUs.svg'} alt={''}
-  height={300}
-  width={300}
-  ></Image>
+          height={400}
+         width={400}
+       ></Image>
   <div className="container mx-auto px-4">
     <div className="flex flex-wrap text-left lg:text-left">
       <div className="w-full lg:w-6/12 px-4">

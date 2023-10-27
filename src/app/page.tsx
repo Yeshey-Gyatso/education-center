@@ -99,13 +99,6 @@ export default function Home() {
            <Footer/>
         </ParallaxLayer>
           </Parallax>
-          
-         
-   </div>
-      
-       
-      
-   
-   
+   </div> 
   )
 }
