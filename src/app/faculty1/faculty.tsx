@@ -11,9 +11,15 @@ const Faculty = () => {
       Education:"B. Tech Mechanical engineering North Eastern Regional Institute of Science and Technology. Pursing Masters in Anthropology, IGNOU",
       pic:"/diken.png",
       Motto:" Whether you think you can or you think you can’t you’re right. -Henry Ford.",
-      Exam1:"1)2019 Appeared and cleared Air force Selection board (AFCAT) ",
-      Exam2:"",
-
+      Exam1:"Cleared Air force Selection board (AFCAT) 2019 ",
+      Exam2:"Cleared Assistant Manager 2021 State Bank of Sikkim",
+      Exam3:"Cleared UGC NET December 2022 ( Qualified for JRF and ASSISTANT PROFESSOR in Anthropology)",
+      Exam4:"UPSC Civil service Exam",
+      Exam41:"Appeared prelims 2020 Failed GS , Cleared CSAT",
+      Exam42:"Appeared prelims 2021 Failed GS , Cleared CSAT",
+      Exam43:"Appeared Prelims 2022 Cleared Prelims",
+      Exam44:"Appeared Mains  2022  Couldn’t qualify for CSE Interview.",
+      
       Facultyfor:"Faculty for Geography, Environment Ecology , Anthropology Optional , CSAT and others."
     },
     {
