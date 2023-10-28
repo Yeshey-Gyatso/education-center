@@ -3,6 +3,8 @@ import {TiTickOutline} from "react-icons/ti"
 const Goals = () => {
   return (
     <div className="bg-yellow-400 rounded-lg shadow-lg h-screen w-screen border-r-2 flex flex-row  items-center ">
+          
+          
           <h1 className=' text-5xl ml-10 p-5 font-serif text-zinc-700 font-bold
            border-b-8 border-yellow-500 border-l-8 border-t-2 border-r-2 cursor-default
           '>OUR OBJECTIVES:</h1>
