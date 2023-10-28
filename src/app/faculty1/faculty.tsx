@@ -6,9 +6,15 @@ const Faculty = () => {
     {
       id:1,
       name:"Diken Sharma",
-      DOB:"07-07-1997"
+      DOB:"07-07-1997",
+      Address:"From Nimtar Busty, Pakyong District",
+      Education:"B. Tech Mechanical engineering North Eastern Regional Institute of Science and Technology. Pursing Masters in Anthropology, IGNOU",
       pic:"/diken.png",
-      description:"The Official Website of BKYT Literary Organisation of Sikkim "
+      Motto:" Whether you think you can or you think you can’t you’re right. -Henry Ford.",
+      Exam1:"1)2019 Appeared and cleared Air force Selection board (AFCAT) ",
+      Exam2:"",
+
+      Facultyfor:"Faculty for Geography, Environment Ecology , Anthropology Optional , CSAT and others."
     },
     {
 
