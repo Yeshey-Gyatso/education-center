@@ -27,30 +27,51 @@ const Faculty = () => {
 
     },
     {
-      id:1,
+      id:2,
       name:"Rigzen Wangchuk Bhutia",
       Address:"Gangtok",
       Education:"B.E. in Computer Science and Engineering M.S. Ramaiah Institute of Technology, Bengaluru",
       pic:"/rig.png",
       Motto:"“The mind is not a vessel to be filled but a fire to be ignited.” —Plutarch",
-      Exam1:"Cleared Air force Selection board (AFCAT) 2019 ",
-      Exam2:"Cleared Assistant Manager 2021 State Bank of Sikkim",
-      Exam3:"Cleared UGC NET December 2022 ( Qualified for JRF and ASSISTANT PROFESSOR in Anthropology)",
-      Exam4:"UPSC Civil service Exam",
-      Exam41:"Appeared prelims 2020 Failed GS , Cleared CSAT",
-      Exam42:"Appeared prelims 2021 Failed GS , Cleared CSAT",
-      Exam43:"Appeared Prelims 2022 Cleared Prelims",
-      Exam44:"Appeared Mains  2022  Couldn’t qualify for CSE Interview.",
-      Subject1:" Geography",
-      Subject2:"Environment",
-      Subject3:"Ecology",
-      Subject4:"Anthropology Optional",
-      Subject5:" CSAT and others."
+      Exam1:"UPSC Mains appeared 2021",
+      Exam2:"UPSC Mains appeared 2022",
+      Exam3:"UPSC CAPF(AC) interview 2022",
+      Exam4:"Cleared SSC CGL 2022",
+      
+      Subject1:"Economics",
+      Subject2:"CSAT ",
+      Subject3:"Anthropology",
     },
     {
+      id:3,
+      name:"Karma Lendup Sherpa ",
+      Address:"Pakyong",
+      Education:"Btech civil(Bharath Institute of Higher Education,Chennai)",
+      pic:"/karma.png",
+      Motto:"'“By education, I mean all-around drawing out of the best in child and man-body mind and spirit”-Mahatma Gandhi",
+     
+      
+      Subject1:"Polity",
+      Subject2:"History(modern, world ) ",
+      Subject3:"Governance",
+      Subject4:"Public administration optional"
 
     },
     {
+      id:4,
+      name:"Nikhil Sherpa",
+      Address:"Pakyong, Sikkim",
+      Education:"B.E. in Computer Science and Engineering M.S. Ramaiah Institute of Technology, Bengaluru",
+      pic:"/rig.png",
+      Motto:"“The mind is not a vessel to be filled but a fire to be ignited.” —Plutarch",
+      Exam1:"UPSC Mains appeared 2021",
+      Exam2:"UPSC Mains appeared 2022",
+      Exam3:"UPSC CAPF(AC) interview 2022",
+      Exam4:"Cleared SSC CGL 2022",
+      
+      Subject1:"Economics",
+      Subject2:"CSAT ",
+      Subject3:"Anthropology",
 
     },
 
