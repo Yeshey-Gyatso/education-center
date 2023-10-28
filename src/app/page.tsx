@@ -13,6 +13,7 @@ import Landing from './components/landing';
 import Contactform from './components/contact';
 import Goals from './components/goals';
 import SecondParallex from './components/secondparallex';
+import CoursesLanding from './components/courses';
 
 
 
@@ -90,7 +91,7 @@ export default function Home() {
 
         <ParallaxLayer offset={4} speed={0.5}
         >
-           <Contactform/>
+           <CoursesLanding/>
         </ParallaxLayer>
         <ParallaxLayer offset={5} speed={0.5}
         >

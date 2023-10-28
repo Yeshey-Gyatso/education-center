@@ -5,11 +5,14 @@ import React from 'react'
 const Footer = () => {
   return (
    <div className=' h-full w-screen  '>
-    <div className=" bg-gray-200 pl-20 pt-20 pb-6 z-10">
-       <Image src={'aboutUs.svg'} alt={''}
+    <div className=" bg-gray-200  pt-20 pb-6 z-10">
+       <div className=' pl-16'>
+       <Image className=' ' src={'aboutUs.svg'} alt={''}
           height={400}
          width={400}
        ></Image>
+       </div>
+       
   <div className="container mx-auto px-4">
     <div className="flex flex-wrap text-left lg:text-left">
       <div className="w-full lg:w-6/12 px-4">
@@ -47,6 +50,7 @@ const Footer = () => {
         </div> 
         </div>
       </div>
+      
       <div className="w-full lg:w-6/12 px-4">
         <div className="flex flex-wrap items-top mb-6">
           <div className="w-full lg:w-4/12 px-4 ml-auto">
@@ -91,7 +95,7 @@ const Footer = () => {
       <div className="w-full md:w-4/12 px-4 mx-auto text-center">
         <div className="text-sm text-blueGray-500 font-semibold py-1">
           Copyright © <span id="get-current-year">2023</span><a href="" className="text-gray-500 hover:text-gray-800" /> NextJs 13 by
-          <a href="mellowgyatso.com" className="text-gray-500 hover:text-gray-800"> Mellow Gyatso</a>.
+          <a href="https://mellowgyatso.com" className="text-gray-500 hover:text-gray-800"> Mellow Gyatso</a>.
         </div>
       </div>
     </div>
