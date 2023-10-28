@@ -20,7 +20,12 @@ const Faculty = () => {
       Exam43:"Appeared Prelims 2022 Cleared Prelims",
       Exam44:"Appeared Mains  2022  Couldn’t qualify for CSE Interview.",
       
-      Facultyfor:"Faculty for Geography, Environment Ecology , Anthropology Optional , CSAT and others."
+      Subject1:" Geography",
+      Subject2:"Environment",
+      Subject3:"Ecology",
+      Subject4:"Anthropology Optional",
+      Subject5:" CSAT and others."
+
     },
     {
 
