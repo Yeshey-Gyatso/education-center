@@ -8,7 +8,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import Navbar from './components/navbar';
 import Footer from './components/footer';
 import Landing from './components/landing';
-
+import Vision from './components/vison';
 import Goals from './components/goals';
 import SecondParallex from './components/secondparallex';
 import CoursesLanding from './components/courses';
@@ -64,23 +64,8 @@ export default function Home() {
         <ParallaxLayer offset={1.5} speed={1.5} 
         className='flex justify-end z-10  pr-4'
         >
-          <div className=" mt-20 rounded-lg 
-          shadow-lg bg-sky-300 h-2/4 p-4 w-2/4  flex flex-col items-center ">
-          <h1 className=' text-3xl p-5 font-serif'>Our Vision</h1>
-            <p className=' font-sans'>Pedestal Education is an educational venture to tap into the human potential of young people of Sikkim 
-            and to inculcate a competitive spirit among students and aspirants.
-            Civil services and government service has always captured the 
-            interest of the youth. In Sikkim, UPSC civil service exam has garnered a sense of mysticism 
-            with very few of Sikkimese clearing such exams and even fewer represented in governance.
-            We hope to provide quality and inclusive guidance and mentorship 
-            to overcome any obstacle and illuminate a pathway to not only civil service exams but various other government exams. 
-            We at Pedestal pride ourselves in our student centric approach and have assembled a well rounded team to help aspirants in any way they require.
-            </p>
-            </div>
-    
+         <Vision/>
         </ParallaxLayer>
-
-
         <ParallaxLayer offset={2.5} speed={1.5} 
         className='flex justify-end '
         >
