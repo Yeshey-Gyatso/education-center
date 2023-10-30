@@ -1,6 +1,4 @@
 "use client";
-import Image from 'next/image'
-
 import LoadingScreen from './components/loader';
 import React, { useEffect, useState } from "react";
 import Lottie from "lottie-react";
@@ -24,13 +22,14 @@ export default function Home() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    const fakeDatafetch =()=>{
-      setTimeout(()=>{
-        setLoading(false)
-      },3400);
-    }
-  
-    fakeDatafetch();
+    
+    const timeoutId = setTimeout(() => {
+      setLoading(false);
+    }, 3400);
+
+    return () => {
+      clearTimeout(timeoutId);
+    };
   }, []);
 
   useEffect(() => {
