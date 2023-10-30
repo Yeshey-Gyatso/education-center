@@ -108,7 +108,7 @@ const Faculty = () => {
           Our Teachers and mentors possess a diverse set of qualities and skills to engage and educate students effectively. They are passionate, experts in subject matter, and adaptable. We pride ourselves in approachability and inclusiveness with no student left behind. These qualities collectively contribute to a positive and effective teaching and learning environment, fostering the academic growth and success of students.
         </p>
       </div>
-      <div className="p-20 w-screen bg-gray-300 flex flex-col justify-center items-center">
+      <div className="p-20 w-screen bg-gray-300 flex justify-center items-center">
         <div className="flex flex-wrap">
           {facultyData.map((faculty) => (
             <FacultyCard key={faculty.id} toggleDetails={toggleDetails} {...faculty} />
