@@ -54,56 +54,56 @@ const Footer = () => {
           <div className="w-full px-4 ">
          <div className="w-full h-full rounded-3xl bg-stone-400/60 flex justify-between p-10">
           <div className="flex flex-wrap flex-col ">
-          <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+          <span className="block uppercase text-gray-900 text-sm font-semibold mb-2 cursor-default">Useful Links</span>
             <ul className="list-unstyled">
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">About Us</a>
+                <a className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm" href="https://upsc.gov.in/">UPSC</a>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Blog</a>
+                <a className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm" href="https://www.youtube.com/results?search_query=upsc+interview+2023">Interview</a>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.github.com/">Github</a>
+                <a className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm" href="https://epaper.thehindu.com/reader?utm_source=google&utm_medium=cpc&utm_campaign=TH_ePaper_BrandSearchExact&tpcc=THEPGS&gad_source=1&gclid=EAIaIQobChMIp6CJzqudggMV8KRmAh3aiQnzEAAYASAAEgIipPD_BwE">The Hindu</a>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Free Products</a>
+                <a className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm" href="https://www.gktoday.in/">Free GK</a>
               </li>
             </ul>
             
           </div>
 
           <div className=" ">
-            <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+            <span className="block uppercase text-gray-900 text-sm font-semibold mb-2 cursor-default">Other Resources</span>
             <ul className="list-unstyled">
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://github.com">  License</a>
+                <a className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm" href="https://github.com">  License</a>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Terms &amp; Conditions</a>
+                <a className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm" href="">Terms &amp; Conditions</a>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Privacy Policy</a>
+                <a className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm" href="">Privacy Policy</a>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Contact Us</a>
+                <a className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm" href="">Contact Us</a>
               </li>
             </ul>
           </div>
 
           <div className=" ">
-            <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+            <span className="block uppercase text-gray-900 text-sm font-semibold mb-2 cursor-default">Other Resources</span>
             <ul className="list-unstyled">
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://github.com">  License</a>
+                <a className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm " href="https://github.com"> About Us</a>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Terms &amp; Conditions</a>
+                <a className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm" href="">GitHub</a>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Privacy Policy</a>
+                <a className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm" href="">Free Products</a>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Contact Us</a>
+                <a className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm" href="">Resources</a>
               </li>
             </ul>
           </div>
@@ -117,12 +117,12 @@ const Footer = () => {
         </div>
         </div>
         </div>
-            <hr className="my-6 border-blueGray-300"/>
+            <hr className="my-6 border-gray-800"/>
             <div className="flex flex-wrap items-center md:justify-between justify-center">
               <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-                <div className="text-sm text-blueGray-500 font-semibold py-1">
+                <div className="text-sm font-semibold py-1">
                   Copyright © <span id="get-current-year">2023</span><a href="" className="text-gray-500 hover:text-gray-800" /> NextJs 13 by
-                  <a href="https://mellowgyatso.com" className="text-gray-500 hover:text-gray-800"> Mellow Gyatso</a>.
+                  <a href="https://mellowgyatso.com" className="text-gray-900 hover:text-gray-500"> Mellow Gyatso</a>.
         </div>
       </div>
     </div>
