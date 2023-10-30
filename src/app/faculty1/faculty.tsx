@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import Navbar from '../components/navbar'
 
@@ -104,85 +105,44 @@ const Faculty = () => {
     },
 
   ])
+  const toggleDetails = (id:Number) => {
+    setFacultyData((prevData) => {
+      return prevData.map((faculty) => {
+        if (faculty.id === id) {
+          return { ...faculty, showDetails: !faculty.showDetails };
+        } else {
+          return faculty;
+        }
+      });
+    });
+  };
 
   
 
 
   return (
-    <div className='h-screen w-screen overflow-x-hidden '>
-      <Navbar/>
-    <div className='flex flex-col  h-screen'>
-      <div className='bg-cyan-600 h-40 w-screen flex justify-center items-center '>
-        <h1 className=' text-3xl'>Faculty</h1>
+    <div className="h-screen w-screen overflow-x-hidden">
+    <Navbar />
+    <div className="flex flex-col h-screen">
+      <div className="bg-cyan-600 h-40 w-screen flex justify-center items-center">
+        <h1 className="text-3xl">Faculty</h1>
       </div>
-      <div className=' h-80 w-screen bg-orange-50 flex justify-center items-center '>
-        <p className=' p-20 text-lg'>
-        Our Teachers and mentors possess a diverse set of qualities and skills to engage and educate  students effectively. 
-        They are passionate, experts in subject matter and adaptable. We pride ourselves in approachability and inclusiveness with no student left behind. 
-        These qualities collectively contribute to a positive and effective teaching and learning environment, fostering the academic growth and success of students.
-
+      <div className="h-80 w-screen bg-orange-50 flex justify-center items-center">
+        <p className="p-20 text-lg">
+          Our Teachers and mentors possess a diverse set of qualities and skills to engage and educate students effectively. They are passionate, experts in subject matter, and adaptable. We pride ourselves in approachability and inclusiveness with no student left behind. These qualities collectively contribute to a positive and effective teaching and learning environment, fostering the academic growth and success of students.
         </p>
       </div>
-
-      <div className='  p-20  w-screen bg-gray-300 flex flex-col justify-center items-center'>
-      
-      
-      
-
-      </div>
-      
-
-    </div>
-    <div className="flex flex-wrap">
-    {faculty.map(({ id, name, Address, Education, pic, Motto, Exam1, Exam2, Exam3, Exam41, Exam42, Exam43, Exam44, Exam4, Subject1, Subject2, Subject3, Subject4, Subject5 }) => (
-    <div key={id} className="w-full md:w-1/2 lg:w-1/4 p-4">
-      <div className="bg-white rounded-lg shadow-md p-4">
-        <div className="font-thin hover:font-normal cursor-default">
-          <h1 className="text-xl font-semibold">{name}</h1>
-        </div>
-        
-        <img src={pic} alt="image" className="w-48 h-48 object-cover rounded-full duration-200 transform hover:scale-105" />
-
-
-        
-
-        <div className="mt-4">
-          <p className="text-gray-600">
-            Address: {Address}
-            <br />
-            Education: {Education}
-            <br />
-            Motto: {Motto}
-          </p>
-
-          <div className="mt-4 text-gray-600">
-            <p>
-              {Exam1} | {Exam2} | {Exam3} | {Exam4}
-            </p>
-            <p>
-              {Exam41} | {Exam42} | {Exam43} | {Exam44}
-            </p>
-          </div>
-
-          <h1 className="text-lg font-semibold mt-4">Subjects:</h1>
-          <ul className="text-gray-600">
-            <li>{Subject1}</li>
-            <li>{Subject2}</li>
-            <li>{Subject3}</li>
-            <li>{Subject4}</li>
-            <li>{Subject5}</li>
-          </ul>
+      <div className="p-20 w-screen bg-gray-300 flex flex-col justify-center items-center">
+        <div className="flex flex-wrap">
+          {facultyData.map((faculty) => (
+            <FacultyCard key={faculty.id} toggleDetails={toggleDetails} {...faculty} />
+          ))}
         </div>
       </div>
     </div>
-      ))}
-    </div>
+  </div>
+);
+};
 
-    
-      
-    </div>
-  )
-
-  }
 
 export default Faculty
