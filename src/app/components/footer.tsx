@@ -48,13 +48,72 @@ const Footer = () => {
 
         </div>
 
-      <div className='w-full h-full bg-gray-200 flex justify-between'>
-        <div className="container mx-auto px-4">
+      <div className='w-full h-full flex justify-between'>
+        <div className="container mx-auto px-4 ">
          <div className="flex flex-wrap items">
-          <div className="w-full lg:w-6/12 px-4">
-        <div className="w-full h-full bg-gray-200 flex justify-between">
+          <div className="w-full px-4 ">
+         <div className="w-full h-full rounded-3xl bg-stone-400/60 flex justify-between p-10">
+          <div className="flex flex-wrap flex-col ">
+          <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+            <ul className="list-unstyled">
+              <li>
+                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">About Us</a>
+              </li>
+              <li>
+                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Blog</a>
+              </li>
+              <li>
+                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.github.com/">Github</a>
+              </li>
+              <li>
+                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Free Products</a>
+              </li>
+            </ul>
+            
+          </div>
+
+          <div className=" ">
+            <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+            <ul className="list-unstyled">
+              <li>
+                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://github.com">  License</a>
+              </li>
+              <li>
+                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Terms &amp; Conditions</a>
+              </li>
+              <li>
+                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Privacy Policy</a>
+              </li>
+              <li>
+                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div className=" ">
+            <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+            <ul className="list-unstyled">
+              <li>
+                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://github.com">  License</a>
+              </li>
+              <li>
+                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Terms &amp; Conditions</a>
+              </li>
+              <li>
+                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Privacy Policy</a>
+              </li>
+              <li>
+                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
           
-          hello
+
+
+
+          
+          
         </div>
         </div>
         </div>
