@@ -6,7 +6,6 @@ const Faculty = () => {
     {
       id:1,
       name:"Diken Sharma",
-      DOB:"07-07-1997",
       Address:"From Nimtar Busty, Pakyong District",
       Education:"B. Tech Mechanical engineering North Eastern Regional Institute of Science and Technology. Pursing Masters in Anthropology, IGNOU",
       pic:"/diken.png",
@@ -99,6 +98,46 @@ const Faculty = () => {
       </div>
       
 
+    </div>
+    <div className=' '>
+      {
+        faculty.map(({id,name,Address,Education,pic,Motto,Exam1,Exam2,Exam3,Exam41,Exam42,Exam43,Exam44,Exam4,Subject1,Subject2,Subject3,Subject4,Subject5})=>(
+          <div key={id} className=' shadow-md shadow-gray-600 rounded-lg'>
+                    <div className='p-3 font-thin hover:font-normal cursor-default'>
+                        <h1>
+                            {name}
+                        </h1>
+                    </div>
+                    <img src={pic} alt="image" className='
+                     rounded-md duration-200  hover:scale-105
+                     
+                    '/>
+                    <div className=' flex items-center justify-center '>
+                      <p>address:{Address} <br />Education:{Education} <br /> Mottot:{Motto}</p><br />
+                      <p>{Exam1} <br /> {Exam2} <br /> {Exam3} <br /> {Exam4} <br />{Exam41} <br /> {Exam42} <br /> {Exam43} <br /> {Exam44}</p>
+                        <h1>Subjects: </h1>
+                        <ul>
+                          <li>
+                            {Subject1}
+                          </li>
+                          <li>
+                            {Subject2}
+                          </li>
+                          <li>
+                            {Subject3}
+                          </li>
+                          <li>
+                            {Subject4 }
+                          </li>
+                          <li>
+                            {Subject5 }
+                          </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+        ))
+      }
     </div>
     
       
