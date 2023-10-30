@@ -102,12 +102,13 @@ const Faculty = () => {
     <div className=' '>
       {
         faculty.map(({id,name,Address,Education,pic,Motto,Exam1,Exam2,Exam3,Exam41,Exam42,Exam43,Exam44,Exam4,Subject1,Subject2,Subject3,Subject4,Subject5})=>(
-          <div key={id} className=' shadow-md shadow-gray-600 rounded-lg'>
+          <div key={id} className=' shadow-md shadow-gray-600 rounded-lg p-3'>
                     <div className='p-3 font-thin hover:font-normal cursor-default'>
                         <h1>
                             {name}
                         </h1>
                     </div>
+                    
                     <img src={pic} alt="image" className='
                      rounded-md duration-200  hover:scale-105
                      
