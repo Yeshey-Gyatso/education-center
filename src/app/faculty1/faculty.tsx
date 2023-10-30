@@ -97,7 +97,7 @@ const Faculty = () => {
 
 
   return (
-    <div className="h-screen w-screen overflow-x-hidden">
+    <div className="h-screen w-screen overflow-x-hidden cursor-default">
     <Navbar />
     <div className="flex flex-col h-screen">
       <div className="bg-cyan-600 h-40 w-screen flex justify-center items-center">

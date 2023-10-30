@@ -27,7 +27,7 @@ interface FacultyData {
             <h1 className="text-xl font-semibold">{name}</h1>
           </div>
   
-          <div className="text-center">
+          <div className="">
             <img src={pic} alt="image" className="mx-auto w-48 h-48 object-cover 
             rounded-full duration-200 transform hover:scale-105" />
           </div>
