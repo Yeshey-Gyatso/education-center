@@ -1,8 +1,34 @@
-import React from 'react'
+import React, { useState } from 'react';
 import Navbar from '../components/navbar'
 
+function FacultyCard({ id, name, Education, pic, Motto, showDetails, toggleDetails }) {
+  return (
+    <div className="w-full md:w-1/2 lg:w-1/4 p-4">
+      <div className="bg-white rounded-lg shadow-md p-4">
+        <div className="font-thin hover:font-normal cursor-pointer" onClick={() => toggleDetails(id)}>
+          <h1 className="text-xl font-semibold">{name}</h1>
+        </div>
+
+        <div className="text-center">
+          <img src={pic} alt="image" className="w-48 h-48 object-cover rounded-full duration-200 transform hover:scale-105" />
+        </div>
+
+        {showDetails && (
+          <div className="mt-4">
+            <p className="text-gray-600">
+              Education: {Education}
+              <br />
+              Motto: {Motto}
+            </p>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 const Faculty = () => {
-  const faculty=[
+  const [facultyData, setFacultyData]=useState([
     {
       id:1,
       name:"Diken Sharma",
@@ -22,7 +48,8 @@ const Faculty = () => {
       Subject2:"Environment",
       Subject3:"Ecology",
       Subject4:"Anthropology Optional",
-      Subject5:" CSAT and others."
+      Subject5:" CSAT and others.",
+      showDetails: false
 
     },
     {
@@ -40,6 +67,7 @@ const Faculty = () => {
       Subject1:"Economics",
       Subject2:"CSAT ",
       Subject3:"Anthropology",
+      showDetails: false
     },
     {
       id:3,
@@ -53,7 +81,8 @@ const Faculty = () => {
       Subject1:"Polity",
       Subject2:"History(modern, world ) ",
       Subject3:"Governance",
-      Subject4:"Public administration optional"
+      Subject4:"Public administration optional",
+      showDetails: false
 
     },
     {
@@ -70,10 +99,15 @@ const Faculty = () => {
       Subject1:"Current affairs",
       Subject2:"Society",
       Subject3:"Anthropology Optional",
+      showDetails: false
 
     },
 
-  ]
+  ])
+
+  
+
+
   return (
     <div className='h-screen w-screen overflow-x-hidden '>
       <Navbar/>
@@ -99,52 +133,56 @@ const Faculty = () => {
       
 
     </div>
-    <div className=' '>
-      {
-        faculty.map(({id,name,Address,Education,pic,Motto,Exam1,Exam2,Exam3,Exam41,Exam42,Exam43,Exam44,Exam4,Subject1,Subject2,Subject3,Subject4,Subject5})=>(
-          <div key={id} className=' shadow-md shadow-gray-600 rounded-lg p-3'>
-                    <div className='p-3 font-thin hover:font-normal cursor-default'>
-                        <h1>
-                            {name}
-                        </h1>
-                    </div>
-                    
-                    <img src={pic} alt="image" className='
-                     rounded-md duration-200  hover:scale-105
-                     
-                    '/>
-                    <div className=' flex items-center justify-center '>
-                      <p>address:{Address} <br />Education:{Education} <br /> Mottot:{Motto}</p><br />
-                      <p>{Exam1} <br /> {Exam2} <br /> {Exam3} <br /> {Exam4} <br />{Exam41} <br /> {Exam42} <br /> {Exam43} <br /> {Exam44}</p>
-                        <h1>Subjects: </h1>
-                        <ul>
-                          <li>
-                            {Subject1}
-                          </li>
-                          <li>
-                            {Subject2}
-                          </li>
-                          <li>
-                            {Subject3}
-                          </li>
-                          <li>
-                            {Subject4 }
-                          </li>
-                          <li>
-                            {Subject5 }
-                          </li>
-                        </ul>
-                        
-                    </div>
-                </div>
-        ))
-      }
+    <div className="flex flex-wrap">
+    {faculty.map(({ id, name, Address, Education, pic, Motto, Exam1, Exam2, Exam3, Exam41, Exam42, Exam43, Exam44, Exam4, Subject1, Subject2, Subject3, Subject4, Subject5 }) => (
+    <div key={id} className="w-full md:w-1/2 lg:w-1/4 p-4">
+      <div className="bg-white rounded-lg shadow-md p-4">
+        <div className="font-thin hover:font-normal cursor-default">
+          <h1 className="text-xl font-semibold">{name}</h1>
+        </div>
+        
+        <img src={pic} alt="image" className="w-48 h-48 object-cover rounded-full duration-200 transform hover:scale-105" />
+
+
+        
+
+        <div className="mt-4">
+          <p className="text-gray-600">
+            Address: {Address}
+            <br />
+            Education: {Education}
+            <br />
+            Motto: {Motto}
+          </p>
+
+          <div className="mt-4 text-gray-600">
+            <p>
+              {Exam1} | {Exam2} | {Exam3} | {Exam4}
+            </p>
+            <p>
+              {Exam41} | {Exam42} | {Exam43} | {Exam44}
+            </p>
+          </div>
+
+          <h1 className="text-lg font-semibold mt-4">Subjects:</h1>
+          <ul className="text-gray-600">
+            <li>{Subject1}</li>
+            <li>{Subject2}</li>
+            <li>{Subject3}</li>
+            <li>{Subject4}</li>
+            <li>{Subject5}</li>
+          </ul>
+        </div>
+      </div>
     </div>
+      ))}
+    </div>
+
     
       
     </div>
   )
-}
 
+  }
 
 export default Faculty
