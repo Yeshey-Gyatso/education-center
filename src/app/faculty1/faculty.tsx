@@ -4,14 +4,14 @@ import Navbar from '../components/navbar'
 
 function FacultyCard({ id, name, Education, pic, Motto, showDetails, toggleDetails }) {
   return (
-    <div className="w-full md:w-1/2 lg:w-1/4 p-4">
+    <div className="w-full md:w-1/2 lg:w-1/4 p-4" onClick={() => toggleDetails(id)}>
       <div className="bg-white rounded-lg shadow-md p-4">
-        <div className="font-thin hover:font-normal cursor-pointer" onClick={() => toggleDetails(id)}>
+        <div className="font-thin hover:font-normal cursor-pointer" >
           <h1 className="text-xl font-semibold">{name}</h1>
         </div>
 
         <div className="text-center">
-          <img src={pic} alt="image" className="w-48 h-48 object-cover rounded-full duration-200 transform hover:scale-105" />
+          <img src={pic} alt="image" className="mx-auto w-48 h-48 object-cover rounded-full duration-200 transform hover:scale-105" />
         </div>
 
         <div className="mt-4">
