@@ -101,10 +101,10 @@ const Faculty = () => {
     <Navbar />
     <div className="flex flex-col h-screen">
       <div className="bg-cyan-600 h-40 w-screen flex justify-center items-center">
-        <h1 className="text-3xl">Faculty</h1>
+        <h1 className="text-2xl  p-5">Faculty</h1>
       </div>
       <div className="h-80 w-screen bg-orange-50 flex justify-center items-center">
-        <p className="p-20 text-lg">
+        <p className="p-20 text-base tracking-wider">
           Our Teachers and mentors possess a diverse set of qualities and skills to engage and educate students effectively. They are passionate, experts in subject matter, and adaptable. We pride ourselves in approachability and inclusiveness with no student left behind. These qualities collectively contribute to a positive and effective teaching and learning environment, fostering the academic growth and success of students.
         </p>
       </div>
