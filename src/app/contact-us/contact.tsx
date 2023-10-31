@@ -34,7 +34,7 @@ const Contact = () => {
                 <ul>
                   <li className='flex items-center mb-4'>
                     <span className='mr-2'><FiPhoneCall /></span>
-                    <span>0123456789</span>
+                    <span className='tracking-wider'>0123456789</span>
                   </li>
                   <li className='flex items-center mb-4'>
                     <span className='mr-2'><LuMail /></span> {/* Use an email icon of your choice */}
@@ -63,10 +63,11 @@ const Contact = () => {
                   required
                 ></textarea>
 
-                <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3
-                 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>
-                  Let's Talk
+                <button className='text-white bg-transparent px-6 py-3 
+                 my-8 mx-auto flex items-center rounded-md border border-white hover:scale-110 duration-300'>
+                  Send Message
                 </button>
+
               </form>
             </div>
 
