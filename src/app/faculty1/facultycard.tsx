@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {AiFillCloseCircle} from 'react-icons/ai'
 interface FacultyData {
   id: number;
   name: string;
@@ -23,10 +23,12 @@ interface FacultyCardProps {
 
 export default function FacultyCard({ id, name, Education, pic, Motto, showDetails, toggleDetails }: FacultyCardProps) {
   return (
-    <div className={`w-full cursor-pointer ${!showDetails ? 'md:w-1/2 lg:1/4':''} p-4 ${showDetails ? 'fixed inset-0 w-screen h-screen flex items-center justify-center z-20 bg-gray-800 transition-opacity duration-300' : ''}`}>
+    <div className={`w-full cursor-pointer ${!showDetails ? 'md:w-1/2 ':''} p-4 ${showDetails ? 'fixed inset-0 w-screen h-screen flex items-center justify-center z-20 bg-gray-800 transition-opacity duration-300' : ''}`}>
       {showDetails ? (
-        <div className="bg-white rounded-lg shadow-md relative">
-          <button className="absolute top-2 right-2 text-gray-500 cursor-pointer" onClick={() => toggleDetails(id)}>X</button>
+        <div className="bg-white rounded-lg shadow-md relative p-5">
+          <button className="absolute top-2 right-2 text-gray-500 cursor-pointer" onClick={() => toggleDetails(id)}>
+          <AiFillCloseCircle/>
+          </button>
           <div className="font-thin hover:font-normal cursor-pointer">
             <h1 className="text-xl font-semibold">{name}</h1>
           </div>
