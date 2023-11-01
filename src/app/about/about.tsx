@@ -21,7 +21,7 @@ const About = () => {
 
       <div className=' p-20 w-screen bg-gray-300 flex flex-row justify-center items-center'>
         <div className=' mr-20'>
-  <img src="bonsai.png"  className=' rounded-bl-full  ' alt="Image Description" />
+  <img src="bonsai.png"  className=' rounded-3xl  ' alt="Image Description" />
           
         </div>
   <div className='flex flex-col'>
