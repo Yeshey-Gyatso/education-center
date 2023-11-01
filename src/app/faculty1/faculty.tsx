@@ -21,6 +21,7 @@ const Faculty = () => {
       Subject2:"Environment",
       Subject3:"Ecology",
       Subject4:"Anthropology Optional",
+      Exam5: null,
       Subject5:" CSAT and others.",
       Accolades:"CLEARED: Air Force Selection Board (AFCAT), Assistant Manager (SBS), UGC NET, UPSC Prelims 2022",
       showDetails: false
@@ -42,25 +43,34 @@ const Faculty = () => {
       Subject1:"Economics",
       Subject2:"CSAT ",
       Subject3:"Anthropology",
+      Subject4: null,
+      Subject5:null,
 
       Accolades:"CLEARED: UPSE Prelims 2021,2022, CAPF(AC) 2022, SSC CGL2022, Assistant Manager (SBS)",
 
       showDetails: false
     },
     {
-      id:3,
-      name:"Karma Lendup Sherpa ",
-      Address:"Pakyong",
-      Education:"Btech civil(Bharath Institute of Higher Education,Chennai)",
-      pic:"/karma.png",
-      Motto:"'“By education, I mean all-around drawing out of the best in child and man-body mind and spirit”-Mahatma Gandhi",
-      Subject1:"Polity",
-      Subject2:"History(modern, world ) ",
-      Subject3:"Governance",
-      Subject4:"Public administration optional",
-      showDetails: false
-
+      id: 3,
+      name: "Karma Lendup Sherpa",
+      Address: "Pakyong",
+      Education: "Btech civil(Bharath Institute of Higher Education,Chennai)",
+      pic: "/karma.png",
+      Motto: "'“By education, I mean all-around drawing out of the best in child and man-body mind and spirit”-Mahatma Gandhi",
+      Exam1: null,
+      Exam2: null,
+      Exam3: null,
+      Exam4: null,
+      Exam5: null,
+      Subject1: "Polity",
+      Subject2: "History(modern, world)",
+      Subject3: "Governance",
+      Subject4: "Public administration optional",
+      Subject5: null,
+      Accolades: null,
+      showDetails: false,
     },
+    
     {
       id:4,
       name:"Nikhil Sherpa",
@@ -71,9 +81,13 @@ const Faculty = () => {
       Exam1:"UPSC Mains appeared 2022",
       Exam2:"UPSC Mains appeared 2023",
       Exam3:"Cleared SSC CGL 2022",
+      Exam4:null,
+      Exam5:null,
       Subject1:"Current affairs",
       Subject2:"Society",
       Subject3:"Anthropology Optional",
+      Subject4: null,
+      Subject5: null,
       Accolades:"CLEARED: UPSE Prelims 2022,2023, SSC CGL 2022",
 
       showDetails: false
