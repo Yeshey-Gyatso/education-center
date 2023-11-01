@@ -4,10 +4,13 @@ import { FacultyCardProps } from './facultytypes';
 
 export default function FacultyCard({ id, name, Education, pic, Motto, showDetails, FacultyDetail,toggleDetails }: FacultyCardProps) {
   return (
-    <div className={`w-full cursor-pointer duration-200 transform hover:scale-105   ${!showDetails ? 'md:w-1/2 ':''} p-4 ${showDetails ? 'fixed inset-0 w-screen h-screen flex items-center justify-center z-20 bg-gray-800 transition-opacity duration-300' : ''}`}>
+    <div className={`w-full cursor-pointer duration-200 
+    transform hover:scale-105   ${!showDetails ? 'md:w-1/2 ':''} p-4 ${showDetails ? 'fixed inset-0 w-screen h-screen flex items-center justify-center z-20 bg-gray-800 transition-opacity duration-300' : ''}`}>
       {showDetails ? (
         <div className="bg-white rounded-lg shadow-md relative p-5">
-          <button className="absolute top-2 right-2 text-gray-500 cursor-pointer" onClick={() => toggleDetails(id)}>
+          <button className="absolute top-2 right-2 
+           text-gray-500 cursor-pointer duration-200 transform hover:scale-125" 
+           onClick={() => toggleDetails(id)}>
           <AiFillCloseCircle/>
           </button>
           <div className="font-thin hover:font-normal cursor-pointer">
