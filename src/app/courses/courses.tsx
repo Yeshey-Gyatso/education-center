@@ -26,11 +26,11 @@ const Courses = () => {
 
     <div className=' p-20 w-screen bg-gray-300 flex flex-row justify-center items-center'>
       <div className=' mr-20'>
-<img src="clip.png"  className='  rounded-3xl  ' alt="Image Description" />
+<img src="lappy.png"  className='  rounded-3xl  ' alt="Image Description" />
         
       </div>
 <div className='flex flex-col'>
-  <p className='text-lg tracking-wider '>
+  <p className='text-lg tracking-wider'>
   For beginners to Civil Service Examinations, will enable student to grasp concepts  related to UPSC and SPSC exams as they require similar foundational knowledge
   </p>
   <br />
@@ -59,7 +59,7 @@ const Courses = () => {
 {/* //2nd course */}
 
 <div className=' p-20 w-screen bg-gray-300 flex flex-row justify-center items-center'>
-<div className='flex flex-col'>
+<div className='flex flex-col mr-5'>
   <div className=''>
   <p className='text-xl tracking-wider font-bold underline p-5   '>
   Optional subject course for UPSC/SPSC
@@ -86,8 +86,8 @@ const Courses = () => {
                 </Link>
 
 </div>
-<div className=' mr-20'>
-<img src="clip.png"  className='  rounded-3xl  ' alt="Image Description" />
+<div className=' mr-10'>
+<img src="map.png"  className='  rounded-3xl  ' alt="Image Description" />
         
       </div>
 </div>
