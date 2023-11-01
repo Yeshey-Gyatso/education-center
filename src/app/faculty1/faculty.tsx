@@ -23,7 +23,7 @@ const Faculty = () => {
       Subject4:"Anthropology Optional",
       Exam5: null,
       Subject5:" CSAT and others.",
-      Accolades:"Faculty for :Geography, Environment, Ecology, Anthropology Optional",
+      FacultyDetail:"Faculty for: Geography, Environment, Ecology, Anthropology Optional",
       showDetails: false
 
     },
@@ -46,7 +46,7 @@ const Faculty = () => {
       Subject4: null,
       Subject5:null,
 
-      Accolades:"CLEARED: UPSE Prelims 2021,2022, CAPF(AC) 2022, SSC CGL2022, Assistant Manager (SBS)",
+      FacultyDetail:"Faculty for: Economics, CSAT, Anthropology",
 
       showDetails: false
     },
@@ -67,7 +67,7 @@ const Faculty = () => {
       Subject3: "Governance",
       Subject4: "Public administration optional",
       Subject5: null,
-      Accolades: null,
+      FacultyDetail: "Faculty for: Polity, History(modern, world), Governance, Public administration optional",
       showDetails: false,
     },
     
@@ -88,7 +88,7 @@ const Faculty = () => {
       Subject3:"Anthropology Optional",
       Subject4: null,
       Subject5: null,
-      Accolades:"CLEARED: UPSE Prelims 2022,2023, SSC CGL 2022",
+      FacultyDetail:"Faculty for: Current affairs, Society, Anthropology Optional ",
 
       showDetails: false
 

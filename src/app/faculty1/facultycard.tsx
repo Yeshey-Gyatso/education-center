@@ -2,7 +2,7 @@ import React from 'react';
 import {AiFillCloseCircle} from 'react-icons/ai'
 import { FacultyCardProps } from './facultytypes';
 
-export default function FacultyCard({ id, name, Education, pic, Motto, showDetails, Accolades,toggleDetails }: FacultyCardProps) {
+export default function FacultyCard({ id, name, Education, pic, Motto, showDetails, FacultyDetail,toggleDetails }: FacultyCardProps) {
   return (
     <div className={`w-full cursor-pointer duration-200 transform hover:scale-105   ${!showDetails ? 'md:w-1/2 ':''} p-4 ${showDetails ? 'fixed inset-0 w-screen h-screen flex items-center justify-center z-20 bg-gray-800 transition-opacity duration-300' : ''}`}>
       {showDetails ? (
@@ -36,7 +36,7 @@ export default function FacultyCard({ id, name, Education, pic, Motto, showDetai
             <img src={pic} alt="image" className="mx-auto w-48 h-48 object-cover rounded-full duration-200 transform hover:scale-105" />
           </div>
           <div className="mt-4 text-gray-600">
-          {Accolades}
+          {FacultyDetail}
           </div>
         </div>
       )}

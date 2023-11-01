@@ -5,7 +5,7 @@ interface FacultyData {
     pic: string;
     Motto: string | null;
     showDetails: boolean;
-    Accolades: string | null;
+    FacultyDetail: string | null;
     Address: string | null;
     Exam1: string | null;
     Exam2: string | null;
@@ -22,7 +22,7 @@ interface FacultyData {
   type ToggleDetails = (id: number) => void;
   interface FacultyCardProps {
     name: string;
-    Accolades: string | null; 
+    FacultyDetail: string | null; 
     Motto: string | null;
     id: number;
     Education: string | null;
