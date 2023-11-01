@@ -23,7 +23,7 @@ const Faculty = () => {
       Subject4:"Anthropology Optional",
       Exam5: null,
       Subject5:" CSAT and others.",
-      Accolades:"CLEARED: Air Force Selection Board (AFCAT), Assistant Manager (SBS), UGC NET, UPSC Prelims 2022",
+      Accolades:"Faculty for :Geography, Environment, Ecology, Anthropology Optional",
       showDetails: false
 
     },

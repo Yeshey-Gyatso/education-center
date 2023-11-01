@@ -2,7 +2,7 @@ interface FacultyData {
     id: number;
     name: string;
     Education: string | null;
-    pic: string | null;
+    pic: string;
     Motto: string | null;
     showDetails: boolean;
     Accolades: string | null;
@@ -26,7 +26,7 @@ interface FacultyData {
     Motto: string | null;
     id: number;
     Education: string | null;
-    pic: string | null;
+    pic: string;
     showDetails: boolean;
     toggleDetails: ToggleDetails;
   }
