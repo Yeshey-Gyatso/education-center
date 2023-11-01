@@ -20,6 +20,7 @@ const Faculty = () => {
       Subject3:"Ecology",
       Subject4:"Anthropology Optional",
       Subject5:" CSAT and others.",
+      Accolades:"Cleared: AFCAT, Assistant Manager (SBS), UGC NET, UPSC Prelims 2022 ",
       showDetails: false
 
     },

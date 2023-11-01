@@ -55,9 +55,7 @@ export default function FacultyCard({ id, name, Education, pic, Motto, showDetai
             <img src={pic} alt="image" className="mx-auto w-48 h-48 object-cover rounded-full duration-200 transform hover:scale-105" />
           </div>
           <div className="mt-4">
-            <p className="text-gray-600">
-              Education: {Education}
-            </p>
+            
           </div>
         </div>
       )}
