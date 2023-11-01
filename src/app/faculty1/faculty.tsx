@@ -2,8 +2,6 @@
 import React, { useState } from 'react';
 import Navbar from '../components/navbar'
 import FacultyCard from './facultycard';
-
-
 const Faculty = () => {
   const [facultyData, setFacultyData]=useState([
     {
@@ -16,11 +14,7 @@ const Faculty = () => {
       Exam1:"Cleared Air force Selection board (AFCAT) 2019 ",
       Exam2:"Cleared Assistant Manager 2021 State Bank of Sikkim",
       Exam3:"Cleared UGC NET December 2022 ( Qualified for JRF and ASSISTANT PROFESSOR in Anthropology)",
-      Exam4:"UPSC Civil service Exam",
-      Exam41:"Appeared prelims 2020 Failed GS , Cleared CSAT",
-      Exam42:"Appeared prelims 2021 Failed GS , Cleared CSAT",
-      Exam43:"Appeared Prelims 2022 Cleared Prelims",
-      Exam44:"Appeared Mains  2022  Couldn’t qualify for CSE Interview.",
+      Exam4:"UPSC Mains appeared 2022",
       Subject1:" Geography",
       Subject2:"Environment",
       Subject3:"Ecology",
@@ -53,8 +47,6 @@ const Faculty = () => {
       Education:"Btech civil(Bharath Institute of Higher Education,Chennai)",
       pic:"/karma.png",
       Motto:"'“By education, I mean all-around drawing out of the best in child and man-body mind and spirit”-Mahatma Gandhi",
-     
-      
       Subject1:"Polity",
       Subject2:"History(modern, world ) ",
       Subject3:"Governance",
@@ -92,10 +84,6 @@ const Faculty = () => {
       });
     });
   };
-
-  
-
-
   return (
     <div className="h-screen w-screen overflow-x-hidden cursor-default">
     <Navbar />
@@ -105,7 +93,10 @@ const Faculty = () => {
       </div>
       <div className="h-80 w-screen bg-orange-50 flex justify-center items-center">
         <p className="p-20 text-base tracking-wider">
-          Our Teachers and mentors possess a diverse set of qualities and skills to engage and educate students effectively. They are passionate, experts in subject matter, and adaptable. We pride ourselves in approachability and inclusiveness with no student left behind. These qualities collectively contribute to a positive and effective teaching and learning environment, fostering the academic growth and success of students.
+          Our Teachers and mentors possess a diverse set of qualities and skills to engage and educate 
+          students effectively. They are passionate, experts in subject matter, and adaptable. We pride ourselves in approachability and inclusiveness with no student left behind. 
+          These qualities collectively contribute to a positive and effective teaching and learning environment, 
+          fostering the academic growth and success of students.
         </p>
       </div>
       <div className="p-20 w-screen bg-gray-300 flex justify-center items-center">

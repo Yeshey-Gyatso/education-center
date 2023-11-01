@@ -33,10 +33,10 @@ const Navbar = () => {
           transition-transform duration-300 ease-in-out'>
       <Link href="/achievement">Achievement</Link>
     </li> */}
-    <li className='hover:scale-105
+    {/* <li className='hover:scale-105
           transition-transform duration-300 ease-in-out'>
       <Link href="/career">Career</Link>
-    </li>
+    </li> */}
     <li className='hover:scale-105
           transition-transform duration-300 ease-in-out'>
       <Link href="/contact-us">Contact Us</Link>
