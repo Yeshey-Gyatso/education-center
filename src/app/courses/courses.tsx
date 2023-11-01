@@ -17,7 +17,7 @@ const Courses = () => {
     </div>
     
     <div className=' p-5'>
-      <p className=' text-xl font-bold'> Integrated UPSC/SPSC classroom foundation course:</p>
+      <p className=' text-xl font-bold underline'> Integrated UPSC/SPSC classroom foundation course:</p>
       <span className=' font-light '>
 </span>
     
