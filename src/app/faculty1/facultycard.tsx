@@ -1,27 +1,8 @@
 import React from 'react';
 import {AiFillCloseCircle} from 'react-icons/ai'
-interface FacultyData {
-  id: number;
-  name: string;
-  Education: string;
-  pic: string;
-  Motto: string;
-  showDetails: boolean;
-}
+import { FacultyCardProps } from './facultytypes';
 
-type ToggleDetails = (id: number) => void;
-
-interface FacultyCardProps {
-  name: string;
-  Motto: string;
-  id: number;
-  Education: string;
-  pic: string;
-  showDetails: boolean;
-  toggleDetails: ToggleDetails;
-}
-
-export default function FacultyCard({ id, name, Education, pic, Motto, showDetails, toggleDetails }: FacultyCardProps) {
+export default function FacultyCard({ id, name, Education, pic, Motto, showDetails, Accolades,toggleDetails }: FacultyCardProps) {
   return (
     <div className={`w-full cursor-pointer duration-200 transform hover:scale-105   ${!showDetails ? 'md:w-1/2 ':''} p-4 ${showDetails ? 'fixed inset-0 w-screen h-screen flex items-center justify-center z-20 bg-gray-800 transition-opacity duration-300' : ''}`}>
       {showDetails ? (
@@ -54,8 +35,8 @@ export default function FacultyCard({ id, name, Education, pic, Motto, showDetai
           <div className="">
             <img src={pic} alt="image" className="mx-auto w-48 h-48 object-cover rounded-full duration-200 transform hover:scale-105" />
           </div>
-          <div className="mt-4">
-            
+          <div className="mt-4 text-gray-600">
+          {Accolades}
           </div>
         </div>
       )}

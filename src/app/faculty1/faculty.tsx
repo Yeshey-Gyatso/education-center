@@ -2,8 +2,10 @@
 import React, { useState } from 'react';
 import Navbar from '../components/navbar'
 import FacultyCard from './facultycard';
+import { FacultyData } from './facultytypes';
 const Faculty = () => {
-  const [facultyData, setFacultyData]=useState([
+ 
+  const [facultyData, setFacultyData]=useState<FacultyData[]>([
     {
       id:1,
       name:"Diken Sharma",
@@ -20,7 +22,7 @@ const Faculty = () => {
       Subject3:"Ecology",
       Subject4:"Anthropology Optional",
       Subject5:" CSAT and others.",
-      Accolades:"Cleared: AFCAT, Assistant Manager (SBS), UGC NET, UPSC Prelims 2022",
+      Accolades:"CLEARED: Air Force Selection Board (AFCAT), Assistant Manager (SBS), UGC NET, UPSC Prelims 2022",
       showDetails: false
 
     },
@@ -36,11 +38,13 @@ const Faculty = () => {
       Exam3:"UPSC CAPF(AC) interview 2022",
       Exam4:"Cleared SSC CGL 2022",
       Exam5:"Cleared Assistant Manager 2021 State Bank of Sikkim",
-      Accolades:"Cleared: UPSE Prelims 2021,2022, CAPF(AC) 2022, SSC CGL2022, Assistant Manager (SBS)",
       
       Subject1:"Economics",
       Subject2:"CSAT ",
       Subject3:"Anthropology",
+
+      Accolades:"CLEARED: UPSE Prelims 2021,2022, CAPF(AC) 2022, SSC CGL2022, Assistant Manager (SBS)",
+
       showDetails: false
     },
     {
@@ -67,10 +71,11 @@ const Faculty = () => {
       Exam1:"UPSC Mains appeared 2022",
       Exam2:"UPSC Mains appeared 2023",
       Exam3:"Cleared SSC CGL 2022",
-      Accolades:"Cleared: UPSE Prelims 2022,2023, SSC CGL 2022",
       Subject1:"Current affairs",
       Subject2:"Society",
       Subject3:"Anthropology Optional",
+      Accolades:"CLEARED: UPSE Prelims 2022,2023, SSC CGL 2022",
+
       showDetails: false
 
     },
