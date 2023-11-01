@@ -67,7 +67,7 @@ const Faculty = () => {
       Exam1:"UPSC Mains appeared 2022",
       Exam2:"UPSC Mains appeared 2023",
       Exam3:"Cleared SSC CGL 2022",
-      Accolades:" Cleared:",
+      Accolades:"Cleared: UPSE Prelims 2022,2023, SSC CGL 2022",
       Subject1:"Current affairs",
       Subject2:"Society",
       Subject3:"Anthropology Optional",
