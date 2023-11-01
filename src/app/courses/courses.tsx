@@ -6,7 +6,7 @@ const Courses = () => {
   return (
     <div className='h-screen w-screen overflow-x-hidden'>
     <Navbar/>
-  <div className='flex flex-col  h-screen'>
+  <div className='flex flex-col  h-screen cursor-default'>
     <div className='bg-cyan-600 h-40 w-screen flex justify-center items-center '>
       <h1 className=' text-2xl p-5'>Courses</h1>
     </div>
