@@ -2,7 +2,7 @@ import React from 'react';
 import {AiFillCloseCircle} from 'react-icons/ai'
 import { FacultyCardProps } from './facultytypes';
 
-export default function FacultyCard({ id, name, Education, pic, Motto, showDetails, FacultyDetail,toggleDetails }: FacultyCardProps) {
+export default function FacultyCard({ id, name,Exam1,Exam2,Exam3,Exam4,Exam5, Education, Subject1,Subject2,Subject3,Subject4,Subject5, pic, Motto, showDetails, FacultyDetail,toggleDetails }: FacultyCardProps) {
   return (
     <div className={`w-full cursor-pointer duration-200 
     transform hover:scale-105   ${!showDetails ? 'md:w-1/2 ':''} p-4 ${showDetails ? 'fixed inset-0 w-screen h-screen flex items-center justify-center z-20 bg-gray-800 transition-opacity duration-300' : ''}`}>
@@ -20,13 +20,46 @@ export default function FacultyCard({ id, name, Education, pic, Motto, showDetai
             <img src={pic} alt="image" className="mx-auto w-48 h-48 object-cover rounded-full duration-200 transform hover:scale-105" />
           </div>
           <div className="mt-4">
+            <p className="text-gray-600 font-bold">
+              Education: 
+              </p>
+              <p>
+              {Education}
+              </p>
+            
+          </div>
+          <div className="mt-4">
+            <p className='text-gray-600 font-bold'>Exams Cleared:</p>
             <p className="text-gray-600">
-              Education: {Education}
+              <ul>
+                <li>{Exam1}</li>
+                <li>{Exam2}</li>
+                <li>{Exam3}</li>
+                <li>{Exam4}</li>
+                <li>{Exam5}</li>
+              </ul>
             </p>
           </div>
           <div className="mt-4">
+            <p className='text-gray-600 font-bold'>Faculty For:</p>
             <p className="text-gray-600">
-              Motto: {Motto}
+              <ul>
+                <li>{Subject1}</li>
+                <li>{Subject2}</li>
+                <li>{Subject3}</li>
+                <li>{Subject4}</li>
+                <li>{Subject5}</li>
+              </ul>
+            </p>
+          </div>
+
+
+          <div className="mt-4">
+            <p className="text-gray-600 font-bold">
+              Motto:
+            </p>
+            <p>
+            {Motto}
             </p>
           </div>
         </div>

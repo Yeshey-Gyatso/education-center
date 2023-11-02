@@ -28,6 +28,16 @@ interface FacultyData {
     Education: string | null;
     pic: string;
     showDetails: boolean;
+    Exam1: string | null;
+    Exam2: string | null;
+    Exam3: string | null;
+    Exam4: string | null;
+    Exam5: string | null;
+    Subject1: string | null;
+    Subject2: string | null;
+    Subject3: string | null;
+    Subject4: string | null;
+    Subject5: string | null;
     toggleDetails: ToggleDetails;
   }
   export type {FacultyData,FacultyCardProps};
