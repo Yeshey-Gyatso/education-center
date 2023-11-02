@@ -71,7 +71,7 @@ export default function FacultyCard({ id, name,Exam1,Exam2,Exam3,Exam4,Exam5, Ed
           <div className="">
             <img src={pic} alt="image" className="mx-auto w-48 h-48 object-cover rounded-full duration-200 transform hover:scale-105" />
           </div>
-          <div className="mt-4 text-gray-600">
+          <div className="mt-4 text-gray-600"> 
           {FacultyDetail}
           </div>
         </div>
