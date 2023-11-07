@@ -1,7 +1,7 @@
 import Lottie from 'lottie-react'
 import Link from 'next/link';
 import React, { useEffect, useState } from "react";
-
+import Image from 'next/image';
 const SecondParallex = () => {
     const [animationData, setAnimationData] = useState(null);
 
@@ -13,6 +13,12 @@ const SecondParallex = () => {
       
   return (
     <div className=' w-screen h-full bg-amber-300 flex'>
+      <Image className=' opacity-50'
+        src="/wave2.svg"
+        alt="Background Image"
+        layout="fill"
+        objectFit="cover"
+      />
       <div className=' w-1/2'>
 
       </div>

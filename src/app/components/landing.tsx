@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Landing = () => {
   return (
-    <div className='h-full w-screen relative md:pt-60'>
+    <div className='h-full w-screen md:pt-60'>
       {/* Background image */}
       <Image
         src="/wave2.svg"
