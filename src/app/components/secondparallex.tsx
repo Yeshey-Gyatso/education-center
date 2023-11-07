@@ -12,9 +12,16 @@ const SecondParallex = () => {
       }, []);
       
   return (
-    <div className=" rounded-s-full bg-sky-400 h-32 w-2/4  flex items-center ">
+    <div className=' w-screen h-full bg-amber-300 flex'>
+      <div className=' w-1/2'>
+
+      </div>
+      <div className=" rounded-s-full bg-sky-400 mt-24 h-32 w-2/4  flex items-center ">
     <Lottie className=' ml-48' animationData={animationData} loop={true} /> 
       </div>
+ 
+    </div>
+   
   )
 }
 
