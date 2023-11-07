@@ -42,7 +42,7 @@ const Landing = () => {
           <button className=' ml-12
           rounded-full shadow-lg hover:scale-105
           transition-transform duration-300 ease-in-out
-          bg-gray-200 p-4'>WATSAPP US</button>
+          bg-gray-200 p-4'>WHATSAPP</button>
         </div>
       </div>
     </div>
