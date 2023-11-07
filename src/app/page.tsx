@@ -53,7 +53,7 @@ export default function Home() {
           <Landing/>
         </ParallaxLayer>
 
-        <ParallaxLayer sticky={{ start: 1, end: 2 }} 
+        <ParallaxLayer sticky={{ start: 1, end: 2.5 }} 
         className=' flex justify-start items-center '>
           <div className=" -ml-2 bg-purple-400 h-32 w-2/4 flex items-center ">
             <Lottie className='' animationData={animationData2} loop={true} />
@@ -61,7 +61,7 @@ export default function Home() {
           </div>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1.5} speed={1.3} 
+        <ParallaxLayer offset={1.5} speed={1.5} 
         className='flex justify-end z-10  pr-4'
         >
          <Vision/>
@@ -72,7 +72,7 @@ export default function Home() {
           <SecondParallex/>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={3} speed={1.2} >
+        <ParallaxLayer offset={3} speed={1} >
           <div >
            <Goals/>
           </div>
@@ -82,7 +82,7 @@ export default function Home() {
         >
            <CoursesLanding/>
         </ParallaxLayer> */}
-        <ParallaxLayer offset={4} speed={1}
+        <ParallaxLayer offset={4} speed={1.5}
         >
            <Footer/>
         </ParallaxLayer>

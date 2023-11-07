@@ -6,7 +6,7 @@ const Landing = () => {
   return (
     <div className='h-full w-screen md:pt-60'>
       {/* Background image */}
-      <Image className=' opacity-20'
+      <Image className=' opacity-25'
         src="/lib2.jpg"
         alt="Background Image"
         layout="fill"
@@ -44,7 +44,7 @@ const Landing = () => {
           </div>
           <Link href={"/courses"} className=' bg-gray-200 p-4
            rounded-full shadow-lg hover:scale-105 
-           transition-transform duration-300 ease-in-out ml-72
+           transition-transform duration-300 ease-in-out lg:ml-72
           '>  COURSES</Link> 
           <Link href="https://wa.me/7407383714" className='ml-12 rounded-full shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out bg-gray-200 p-4'>
             WHATSAPP</Link>
