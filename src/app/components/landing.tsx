@@ -24,7 +24,7 @@ const Landing = () => {
             <p className=' lg:text-5xl border-b-4 border-white cursor-default '>"Welcome to Pedestal Education"</p>
           </div>
             <br /><br />  
-          <div className=" lg:text-2xl md:pl-72 cursor-default">
+          <div className=" lg:text-2xl md:pl-72 cursor-default ">
           <p>The one-stop solution for clearing competitive exams in Sikkim.
             <br />
             Join us for guidance in UPSC/SPSC/Banking examinations.
@@ -32,7 +32,7 @@ const Landing = () => {
              Let us help you every step of your way in your journey</p>
           </div>
 
-          <div className="p-4 md:pl-72">
+          <div className="md:p-6 md:pl-72">
           <p className=' font-thin'> click here for additional information.</p>
           </div>
           <Link href={"/courses"} className=' bg-gray-200 p-4
