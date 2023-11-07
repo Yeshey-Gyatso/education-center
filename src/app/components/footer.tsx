@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
 
           <div className=" ">
-            <span className="block uppercase text-gray-900 text-sm font-semibold mb-2 cursor-default">Other Resources</span>
+            <span className="block uppercase text-gray-900 text-sm font-semibold mb-2 cursor-default">Resources</span>
             <ul className="list-unstyled">
               <li>
                 <a className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm" href="https://github.com">  License</a>

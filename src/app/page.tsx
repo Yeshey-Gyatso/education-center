@@ -47,7 +47,7 @@ export default function Home() {
     <div className=' fixed z-10'>
       <Navbar/>
     </div>
-     <Parallax pages={6} className=' hideScrollbar ' >
+     <Parallax pages={5} className=' hideScrollbar ' >
      
         <ParallaxLayer offset={0} speed={0.5}>
           <Landing/>
@@ -61,28 +61,28 @@ export default function Home() {
           </div>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1.5} speed={1.5} 
+        <ParallaxLayer offset={1.5} speed={1.3} 
         className='flex justify-end z-10  pr-4'
         >
          <Vision/>
         </ParallaxLayer>
-        <ParallaxLayer offset={2.5} speed={1.5} 
+        <ParallaxLayer offset={2.5} speed={0.7} 
         className='flex justify-end '
         >
           <SecondParallex/>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={3} speed={1.5} >
+        <ParallaxLayer offset={3} speed={1.2} >
           <div >
-          <Goals/>
+           <Goals/>
           </div>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={4} speed={0.5}
+        {/* <ParallaxLayer offset={4} speed={0.5}
         >
-           {/* <CoursesLanding/> */}
-        </ParallaxLayer>
-        <ParallaxLayer offset={5} speed={0.5}
+           <CoursesLanding/>
+        </ParallaxLayer> */}
+        <ParallaxLayer offset={4} speed={1}
         >
            <Footer/>
         </ParallaxLayer>

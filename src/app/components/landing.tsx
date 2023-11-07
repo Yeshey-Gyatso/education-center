@@ -28,7 +28,7 @@ const Landing = () => {
 
         <div className="col-span-8">
           <div className="  md:pl-52">
-            <p className=' lg:text-5xl border-b-4 border-white cursor-default '>"Welcome to Pedestal Education"</p>
+            <p className=' lg:text-5xl border-b-8 border-gray-400 cursor-default '>"Welcome to Pedestal Education"</p>
           </div>
             <br /><br />  
           <div className=" lg:text-2xl md:pl-72 cursor-default ">
