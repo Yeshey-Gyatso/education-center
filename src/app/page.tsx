@@ -53,7 +53,7 @@ export default function Home() {
           <Landing/>
         </ParallaxLayer>
 
-        <ParallaxLayer sticky={{ start: 1, end: 2.1 }} 
+        <ParallaxLayer sticky={{ start: 1, end: 2.05 }} 
         className=' flex justify-start items-center '>
           <div className=" -ml-2 bg-purple-400 h-32 w-2/4 flex items-center ">
             <Lottie className='' animationData={animationData2} loop={true} />
