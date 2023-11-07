@@ -13,8 +13,8 @@ const SecondParallex = () => {
       
   return (
     <div className=' w-screen h-full bg-amber-300 flex'>
-      <Image className=' opacity-50'
-        src="/wave2.svg"
+      <Image className=' opacity-70'
+        src="/lib.jpg"
         alt="Background Image"
         layout="fill"
         objectFit="cover"

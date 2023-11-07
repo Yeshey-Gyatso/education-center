@@ -73,7 +73,7 @@ export default function Home() {
         </ParallaxLayer>
 
         <ParallaxLayer offset={3} speed={1.5} >
-          <div className=' p-2'>
+          <div >
           <Goals/>
           </div>
         </ParallaxLayer>
