@@ -11,6 +11,7 @@ const Goals = () => {
         alt="Background Image"  
         layout="fill"
         objectFit="cover"
+        loading="lazy"
       />
           <h1 className=' text-5xl ml-10 p-5 font-serif text-zinc-700 font-bold
            border-b-8 border-yellow-700 border-l-8 border-t-2 border-r-2 cursor-default

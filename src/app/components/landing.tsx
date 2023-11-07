@@ -11,12 +11,14 @@ const Landing = () => {
         alt="Background Image"
         layout="fill"
         objectFit="cover"
+        loading="lazy"
       />
       <Image className=' '
         src="/wave.svg"
         alt="Background Image"
         layout="fill"
         objectFit="cover"
+        loading="lazy"
       />
       
 

@@ -18,6 +18,7 @@ const SecondParallex = () => {
         alt="Background Image"
         layout="fill"
         objectFit="cover"
+        loading="lazy"
       />
       <div className=' w-1/2'>
 

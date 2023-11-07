@@ -11,7 +11,7 @@ import Landing from './components/landing';
 import Vision from './components/vison';
 import Goals from './components/goals';
 import SecondParallex from './components/secondparallex';
-import CoursesLanding from './components/courses';
+
 
 
 
