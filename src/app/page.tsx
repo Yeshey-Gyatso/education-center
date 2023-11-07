@@ -80,7 +80,7 @@ export default function Home() {
 
         <ParallaxLayer offset={4} speed={0.5}
         >
-           <CoursesLanding/>
+           {/* <CoursesLanding/> */}
         </ParallaxLayer>
         <ParallaxLayer offset={5} speed={0.5}
         >
