@@ -6,12 +6,19 @@ const Landing = () => {
   return (
     <div className='h-full w-screen md:pt-60'>
       {/* Background image */}
-      <Image
-        src="/wave2.svg"
+      <Image className=' opacity-20'
+        src="/lib2.jpg"
         alt="Background Image"
         layout="fill"
         objectFit="cover"
       />
+      <Image className=' '
+        src="/wave.svg"
+        alt="Background Image"
+        layout="fill"
+        objectFit="cover"
+      />
+      
 
       <div className='bg-transparent grid grid-cols-12 h-full relative w-screen'>
         <div className="col-span-4 bg-image-container p-4">
