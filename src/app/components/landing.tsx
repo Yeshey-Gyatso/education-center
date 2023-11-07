@@ -39,10 +39,8 @@ const Landing = () => {
            rounded-full shadow-lg hover:scale-105 
            transition-transform duration-300 ease-in-out ml-72
           '>  COURSES</Link> 
-          <button className=' ml-12
-          rounded-full shadow-lg hover:scale-105
-          transition-transform duration-300 ease-in-out
-          bg-gray-200 p-4'>WHATSAPP</button>
+          <Link href="https://wa.me/7407383714" className='ml-12 rounded-full shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out bg-gray-200 p-4'>
+            WHATSAPP</Link>
         </div>
       </div>
     </div>
