@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Landing = () => {
   return (
@@ -19,25 +20,29 @@ const Landing = () => {
         </div>
 
         <div className="col-span-8">
-          <div className=" p-4 md:pl-60">
-            <p className=' text-4xl border-b-4 border-white'>"Your first step towards success"</p>
+          <div className="  md:pl-52">
+            <p className=' lg:text-5xl border-b-4 border-white cursor-default '>"Welcome to Pedestal Education"</p>
           </div>
             <br /><br />  
-          <div className=" p-4 text-xl md:pl-72">
-          <p>This is some additional content for Text 1. You can add more details or information here.</p>
+          <div className=" lg:text-2xl md:pl-72 cursor-default">
+          <p>The one-stop solution for clearing competitive exams in Sikkim.
+            <br />
+            Join us for guidance in UPSC/SPSC/Banking examinations.
+            <br />
+             Let us help you every step of your way in your journey</p>
           </div>
 
           <div className="p-4 md:pl-72">
-          <p className=' font-thin'> Here's additional content for Text 2.</p>
+          <p className=' font-thin'> click here for additional information.</p>
           </div>
-          <button className=' bg-gray-200 p-4
+          <Link href={"/courses"} className=' bg-gray-200 p-4
            rounded-full shadow-lg hover:scale-105 
            transition-transform duration-300 ease-in-out ml-72
-          '>button 1</button> 
+          '>  COURSES</Link> 
           <button className=' ml-12
           rounded-full shadow-lg hover:scale-105
           transition-transform duration-300 ease-in-out
-          bg-gray-200 p-4'>button 2</button>
+          bg-gray-200 p-4'>WATSAPP US</button>
         </div>
       </div>
     </div>

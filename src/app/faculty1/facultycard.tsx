@@ -28,7 +28,8 @@ export default function FacultyCard({ id, name,Exam1,Exam2,Exam3,Exam4,Exam5, Ed
               </p>
             
           </div>
-          <div className="mt-4">
+          {Exam1 ? (
+     <div className="mt-4">
             <p className='text-gray-600 font-bold'>Exams Cleared:</p>
             <p className="text-gray-600">
               <ul>
@@ -40,6 +41,7 @@ export default function FacultyCard({ id, name,Exam1,Exam2,Exam3,Exam4,Exam5, Ed
               </ul>
             </p>
           </div>
+        ) : null}
           <div className="mt-4">
             <p className='text-gray-600 font-bold'>Faculty For:</p>
             <p className="text-gray-600">
