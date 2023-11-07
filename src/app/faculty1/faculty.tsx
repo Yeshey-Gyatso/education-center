@@ -14,7 +14,7 @@ const Faculty = () => {
       pic:"/diken.png",
       Motto:" Whether you think you can or you think you can’t you’re right. -Henry Ford.",
       Exam1:"Cleared Air force Selection board (AFCAT) 2019 ",
-      Exam2:"Cleared Assistant Manager 2021 State Bank of Sikkim",
+      Exam2:"Cleared written paper of Assistant Manager 2021 State Bank of Sikkim",
       Exam3:"Cleared UGC NET December 2022 ( Qualified for JRF and ASSISTANT PROFESSOR in Anthropology)",
       Exam4:"UPSC Mains appeared 2022",
       Subject1:" Geography",
@@ -38,7 +38,7 @@ const Faculty = () => {
       Exam2:"UPSC Mains appeared 2022",
       Exam3:"UPSC CAPF(AC) interview 2022",
       Exam4:"Cleared SSC CGL 2022",
-      Exam5:"Cleared Assistant Manager 2021 State Bank of Sikkim",
+      Exam5:"Cleared written paper of Assistant Manager 2021 State Bank of Sikkim",
       
       Subject1:"Economics",
       Subject2:"CSAT ",
