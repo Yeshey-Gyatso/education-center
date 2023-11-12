@@ -47,6 +47,7 @@ export default function Home() {
     <div className=' fixed z-10'>
       <Navbar/>
     </div>
+   
      <Parallax pages={5} className=' hideScrollbar ' >
      
         <ParallaxLayer offset={0} speed={0.5}>
