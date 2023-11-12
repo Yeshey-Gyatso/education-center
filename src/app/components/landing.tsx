@@ -22,7 +22,7 @@ const Landing = () => {
       />
       
 
-      <div className='bg-transparent grid grid-cols-12 h-full relative w-screen'>
+      <div className='bg-transparent grid md:grid-cols-12 h-full relative w-screen'>
         <div className="col-span-4 bg-image-container p-4">
           {/* Use a standard HTML img element for non-background images */}
           <img className=' rounded-full' src="/P.png" alt='' />
