@@ -4,7 +4,9 @@ import {LuMail} from 'react-icons/lu';
 import {ImLocation2} from 'react-icons/im';
 // import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
+
 const Contact = () => {
+  const form = useRef();
   return (
     <div className='overflow-hidden'>
       <Navbar/>
