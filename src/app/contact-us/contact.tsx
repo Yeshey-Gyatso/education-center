@@ -1,10 +1,9 @@
-import React from 'react';
 import Navbar from '../components/navbar';
 import {FiPhoneCall} from 'react-icons/fi';
 import {LuMail} from 'react-icons/lu';
 import {ImLocation2} from 'react-icons/im';
 // import emailjs from '@emailjs/browser';
-
+import React, { useRef } from 'react';
 const Contact = () => {
   return (
     <div className='overflow-hidden'>
