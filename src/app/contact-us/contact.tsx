@@ -68,7 +68,7 @@ const Contact = () => {
                   </li>
                 </ul>
               </div>
-
+              {/* onSubmit={sendEmail} */}
               <form action="#!" className='flex-1 flex flex-col w-full md:w-1/2' method='POST'>
                 <input
                   type="text"
