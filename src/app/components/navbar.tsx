@@ -6,7 +6,7 @@ const Navbar = () => {
     
     <div className='   w-screen hidden md:flex  justify-between items-center cursor-default'>
   <div className=' p-2 pl-10 pt-5'>
-    <img src="P.png" alt="" className=' rounded-full h-16 w-16' />
+    <img src="Ologo.png" alt="" className=' rounded-full md:h-16 md:w-16' />
   </div>
   <ul className=' flex gap-4 items-center p-2  -mt-1 '>
     <li className='hover:scale-105
