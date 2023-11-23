@@ -23,17 +23,17 @@ const Landing = () => {
       
 
       <div className='bg-transparent grid md:grid-cols-12 h-full relative w-screen'>
-        <div className="col-span-4 bg-image-container p-4">
+        <div className="col-span-5 bg-image-container p-4 ">
           {/* Use a standard HTML img element for non-background images */}
-          <img className=' rounded-full' src="/P.png" alt='' />
+          <img className=' rounded-full h-5/6  lg:-mt-16 lg:ml-20' src="/Ologo.png" alt=''  />
         </div>
 
-        <div className="col-span-8">
+        <div className="col-span-7">
           <div className="  md:pl-52">
             <p className=' lg:text-5xl border-b-8 border-gray-400 cursor-default '>"Welcome to Pedestal Education"</p>
           </div>
             <br /><br />  
-          <div className=" lg:text-2xl md:pl-72 cursor-default ">
+          <div className=" lg:text-2xl  cursor-default ">
           <p>The one-stop solution for clearing competitive exams in Sikkim.
             <br />
             Join us for guidance in UPSC/SPSC/Banking examinations.
