@@ -46,7 +46,7 @@ const Navbar = () => {
       <ul className=' flex gap-3 items-center p-3'>
         <li className='hover:scale-105
           transition-transform duration-300 ease-in-out'>
-        <Link href="https://www.youtube.com/channel/UCyLuGOimahg8ci6_dFgsLBw"><img 
+        <Link href="https://www.youtube.com/@PedestalEducation"><img 
         className=' h-10 w-9'
         src="yt.svg" alt="" /></Link>
           </li>
@@ -65,7 +65,7 @@ const Navbar = () => {
           </li>
         <li className='hover:scale-105
           transition-transform duration-300 ease-in-out'>
-        <Link href="https://www.instagram.com/explore/"><img 
+        <Link href="https://www.instagram.com/pedestaleducation/"><img 
         className=' h-8 w-10'
         src="ig.svg" alt="" /></Link>
         </li>

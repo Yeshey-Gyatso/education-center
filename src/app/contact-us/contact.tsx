@@ -1,3 +1,4 @@
+"use client";
 import Navbar from '../components/navbar';
 import {FiPhoneCall} from 'react-icons/fi';
 import {LuMail} from 'react-icons/lu';
@@ -48,7 +49,7 @@ const Contact = () => {
             <div className='flex flex-row justify-between items-center'>
               <div className='flex-1'>
                 <div className=''>
-                  <img src="/P.png" className='h-2/3 w-2/3 rounded-3xl' alt="logo pic" />
+                  <img src="/translogo.png" className='h-3/4 w-3/4 rounded-3xl' alt="logo pic" />
                 </div>
               </div>
 
