@@ -44,7 +44,7 @@ export default function Home() {
   :
   (
    <div>
-    <div>
+    <div className=' hidden md:block'>
     <div className=' fixed z-10'>
       <Navbar/>
     </div>
@@ -90,6 +90,13 @@ export default function Home() {
         </ParallaxLayer>
           </Parallax>
     </div> 
+    <div>
+    <Landing/>
+    <Vision/>
+    <Goals/>
+    <Footer/>
+
+    </div>
     
    </div> 
   )
