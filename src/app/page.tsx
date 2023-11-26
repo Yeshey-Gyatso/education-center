@@ -43,7 +43,8 @@ export default function Home() {
   )
   :
   (
-   <div> 
+   <div>
+    <div>
     <div className=' fixed z-10'>
       <Navbar/>
     </div>
@@ -56,7 +57,7 @@ export default function Home() {
 
         <ParallaxLayer sticky={{ start: 1, end: 2.05 }} 
         className=' flex justify-start items-center '>
-          <div className=" -ml-2 bg-purple-400 h-32 w-2/4 flex items-center ">
+          <div className=" md:-ml-2 bg-purple-400 md:h-32 md:w-2/4 flex items-center -z-30 ">
             <Lottie className='' animationData={animationData2} loop={true} />
            <p className=' font-sans text-xl'>"Welcome to Pedestal Education"</p>
           </div>
@@ -88,6 +89,8 @@ export default function Home() {
            <Footer/>
         </ParallaxLayer>
           </Parallax>
+    </div> 
+    
    </div> 
   )
 }
