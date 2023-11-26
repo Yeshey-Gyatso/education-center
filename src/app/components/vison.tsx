@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Vision(){
     return(
-        <div className=" md:mt-20 rounded-lg 
-        shadow-lg bg-sky-300 h-full w-full md:h-2/4 p-4  md:w-2/4  flex flex-col items-center ">
+        <div className=" mt-20 rounded-lg 
+        shadow-lg bg-sky-300 h-full w-screen pt-20 p-10 md:h-2/4 md:p-4 md:w-2/4  flex flex-col items-center ">
         <h1 className=' text-3xl p-5 font-serif'>Our Vision</h1>
-          <p className=' font-sans'>Pedestal Education is an educational venture to tap into the human potential of young people of Sikkim 
+          <p className='text-sm  md:text-base font-sans'>Pedestal Education is an educational venture to tap into the human potential of young people of Sikkim 
           and to inculcate a competitive spirit among students and aspirants.
           Civil services and government service has always captured the 
           interest of the youth. In Sikkim, UPSC civil service exam has garnered a sense of mysticism 
