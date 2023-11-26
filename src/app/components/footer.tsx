@@ -6,7 +6,7 @@ const Footer = () => {
       <div className='container mx-auto px-4 '>
         <div className='mt-20 flex flex-col md:flex-row items-center justify-evenly h-full '>
           <div className=' p-5'>
-            <img src="/P.png" className=' rounded-full h-56 w-56'  alt="image of logo" />
+            <img src="/logo.png" className=' rounded-lg h-56 w-56'  alt="image of logo" />
           </div>
           <div className=' px-4 p-5'>
           <h4 className="text-3xl font-semibold text-gray-700">Let's keep in touch!</h4>
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
         
 
-      <div className='w-full h-full flex justify-between'>
+      <div className=' w-full h-full hidden md:flex justify-between'>
         <div className="container mx-auto px-4 ">
          <div className="flex flex-wrap items">
           <div className="w-full px-4 ">
