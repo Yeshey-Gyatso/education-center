@@ -43,8 +43,7 @@ export default function Home() {
   )
   :
   (
-   <div>
-    <div className=' hidden md:block'>
+   <div> 
     <div className=' fixed z-10'>
       <Navbar/>
     </div>
@@ -57,7 +56,7 @@ export default function Home() {
 
         <ParallaxLayer sticky={{ start: 1, end: 2.05 }} 
         className=' flex justify-start items-center '>
-          <div className=" md:-ml-2 bg-purple-400 md:h-32 md:w-2/4 flex items-center -z-30 ">
+          <div className=" md:-ml-2 bg-purple-400 md:h-32 md:w-2/4 flex items-center ">
             <Lottie className='' animationData={animationData2} loop={true} />
            <p className=' font-sans text-xl'>"Welcome to Pedestal Education"</p>
           </div>
@@ -89,15 +88,6 @@ export default function Home() {
            <Footer/>
         </ParallaxLayer>
           </Parallax>
-    </div> 
-    <div>
-    <Landing/>
-    <Vision/>
-    <Goals/>
-    <Footer/>
-
-    </div>
-    
    </div> 
   )
 }
