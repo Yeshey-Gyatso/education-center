@@ -16,6 +16,7 @@ import PhoneNavbar from './components/phone.nav';
 export default function Home() {
 
   const [animationData2, setAnimationData2] = useState(null);
+  const [hasLoadedHome, setHasLoadedHome] = useState(false);
 
   const [loading, setLoading] = useState(true)
 
