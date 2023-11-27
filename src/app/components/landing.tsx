@@ -41,10 +41,10 @@ const Landing = () => {
              Let us help you every step of your way in your journey</p>
           </div>
 
-          <div className=" sm:pb-10 md:p-6 md:pl-12 lg:pb-10">
+          <div className=" tall:pb-10 md:p-6 md:pl-12 lg:pb-10">
           <p className=' hidden md:block  font-thin'> click here for additional information.</p>
           </div>
-          <div className=' hidden sm:flex'>
+          <div className=' hidden tall:flex '>
           <Link href={"/courses"} className=' bg-gray-200  p-4
            rounded-full shadow-lg hover:scale-105 
            transition-transform duration-300 ease-in-out ml-10 lg:ml-12
