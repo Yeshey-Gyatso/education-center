@@ -24,8 +24,8 @@ const Landing = () => {
 
       <div className='bg-transparent md:grid md:grid-cols-12 h-full relative w-screen'>
         <div className="col-span-5 bg-image-container p-4 ">
-          {/* Use a standard HTML img element for non-background images */}
-          <img className=' rounded-full md:h-5/6  lg:-mt-16 lg:ml-20' src="/Ologo.png" alt=''  />
+          
+          <img className=' rounded-full h-auto md:h-5/6  lg:-mt-16 lg:ml-20' src="/Ologo.png" alt=''  />
         </div>
 
         <div className="md:col-span-7">
@@ -44,7 +44,7 @@ const Landing = () => {
           <div className=" sm:pb-10 md:p-6 md:pl-12 lg:pb-10">
           <p className=' hidden md:block  font-thin'> click here for additional information.</p>
           </div>
-          <div className=' hidden sm:block'>
+          <div className=' hidden sm:flex'>
           <Link href={"/courses"} className=' bg-gray-200  p-4
            rounded-full shadow-lg hover:scale-105 
            transition-transform duration-300 ease-in-out ml-10 lg:ml-12
