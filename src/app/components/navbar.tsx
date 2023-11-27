@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     
-    <div className='   w-screen hidden md:flex  justify-between items-center cursor-default'>
+    <div className='w-screen hidden md:flex  justify-between items-center cursor-default'>
   <div className=' p-2 pl-10 pt-5'>
     <img src="Ologo.png" alt="" className=' rounded-full md:h-16 md:w-16' />
   </div>

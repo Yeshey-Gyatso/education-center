@@ -11,9 +11,7 @@ import Landing from './components/landing';
 import Vision from './components/vison';
 import Goals from './components/goals';
 import SecondParallex from './components/secondparallex';
-
-
-
+import PhoneNavbar from './components/phone.nav';
 
 export default function Home() {
 
@@ -44,8 +42,11 @@ export default function Home() {
   :
   (
    <div> 
-    <div className=' fixed z-10'>
+    <div className='hidden md:block fixed z-10'>
       <Navbar/>
+    </div>
+    <div className=' md:hidden fixed z-10'>
+      <PhoneNavbar/>
     </div>
    
      <Parallax pages={5} className=' hideScrollbar ' >
