@@ -63,7 +63,7 @@ export default function Home() {
         </ParallaxLayer>
 
         <ParallaxLayer offset={1.5} speed={1.5} 
-        className='flex justify-end z-10  pr-4'
+        className='flex justify-end z-10  md:pr-4'
         >
          <Vision/>
         </ParallaxLayer>
