@@ -44,7 +44,7 @@ const Landing = () => {
           <div className=" tall:pb-10 md:p-6 md:pl-12 lg:pb-10">
           <p className=' hidden md:block  font-thin'> click here for additional information.</p>
           </div>
-          <div className=' hidden tall:flex tall:justify-center  '>
+          <div className=' hidden tall:flex tall:justify-center md:justify-normal  '>
           <Link href={"/courses"} className=' bg-gray-200  p-4
            rounded-full shadow-lg hover:scale-105 
            transition-transform duration-300 ease-in-out md:ml-10 lg:ml-12
