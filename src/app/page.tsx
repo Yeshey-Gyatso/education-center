@@ -1,15 +1,10 @@
-"use client"
 import React from 'react'
 import PageSelector from './components/pageselector'
-import { RecoilRoot } from 'recoil'
 
-const MyApp = () => {
+const MainApp = () => {
   return (
-    <RecoilRoot>
     <PageSelector/>
-    </RecoilRoot>
-    
   )
 }
 
-export default MyApp
+export default MainApp
