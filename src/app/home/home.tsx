@@ -29,7 +29,7 @@ export default function Home() {
     <div className='hidden md:block fixed z-10'>
       <Navbar/>
     </div>
-    <div className=' md:hidden fixed z-10'>
+    <div className=' md:hidden fixed right-0 z-10'>
       <PhoneNavbar/>
     </div>
    
