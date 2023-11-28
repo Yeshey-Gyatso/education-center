@@ -11,21 +11,21 @@ const Courses = () => {
       <h1 className=' text-2xl p-5'>Courses</h1>
     </div>
     <div className=' h-80 w-screen bg-orange-50 flex justify-center items-center '>
-      <p className=' p-5 text-base tracking-wider text-gray-600'>
+      <p className=' p-5 text-sm md:text-base tracking-wider text-gray-600'>
       Our institute is dedicated to providing an integrated UPSC/SPSC classroom foundation course, bridging the gap between national and state civil services.
         </p>
     </div>
     
     <div className=' p-5'>
-      <p className=' text-xl font-bold underline'> Integrated UPSC/SPSC classroom foundation course:</p>
+      <p className=' text-base md:text-xl font-bold underline'> Integrated UPSC/SPSC classroom foundation course:</p>
       <span className=' font-light '>
 </span>
     
 
     </div>
 
-    <div className=' p-20 w-screen bg-gray-300 flex flex-row justify-center items-center'>
-      <div className=' mr-20'>
+    <div className=' px-6 py-10 items-center md:p-20 w-screen bg-gray-300 flex flex-col md:flex-row justify-center gap-5 md:gap-20'>
+      <div className=' h-full  '>
 <img src="lappy.png"  className='  rounded-3xl  ' alt="Image Description" />
         
       </div>
@@ -58,9 +58,9 @@ const Courses = () => {
 
 {/* //2nd course */}
 
-<div className=' p-20 w-screen bg-gray-300 flex flex-row justify-center items-center'>
-<div className='flex flex-col mr-5'>
-  <div className=''>
+<div className=' px-6 py-10 md:p-20 w-screen bg-gray-300 flex flex-col-reverse md:flex-row justify-center items-center gap-10 md:gap-20'>
+<div className='flex flex-col relative '>
+  <div className=' h-full'>
   <p className='text-xl tracking-wider font-bold underline p-5   '>
   Optional subject course for UPSC/SPSC
   </p>
@@ -86,7 +86,7 @@ const Courses = () => {
                 </Link>
 
 </div>
-<div className=' mr-10'>
+<div className=''>
 <img src="map.png"  className='  rounded-3xl  ' alt="Image Description" />
         
       </div>
