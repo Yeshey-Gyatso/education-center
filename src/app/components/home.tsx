@@ -13,23 +13,13 @@ import Goals from './goals';
 import SecondParallex from './secondparallex';
 import PhoneNavbar from './phone.nav';
 import { useRecoilState } from 'recoil';
-import { hasLoadedHomeState } from '../recoil/atoms';
+
 
 
 
 export default function Home() {
  
-  const [animationData2, setAnimationData2] = useState(null);
-  const [hasLoadedHome, setHasLoadedHome] = useRecoilState(hasLoadedHomeState);
- 
-  
-  useEffect(() => {
-    setHasLoadedHome(true);
-    console.log(hasLoadedHome+"this is from home ")
-    
-  }, []);
-
-  
+  const [animationData2, setAnimationData2] = useState(null); 
 
   useEffect(() => {
     fetch('/self.json')

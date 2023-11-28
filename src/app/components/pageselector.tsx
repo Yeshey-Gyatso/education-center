@@ -1,27 +1,12 @@
-import { useEffect, useState } from 'react';
-import { useRecoilState } from 'recoil';
-import { hasLoadedHomeState } from '../recoil/atoms';
-import LoadingScreen from './loader';
-import Home from './home';
+"use client"
+import React from 'react'
 
-function PageSelector() {
-  const [hasLoadedHome] = useRecoilState(hasLoadedHomeState);
-  const [loading, setLoading] = useState(!hasLoadedHome);
+const PageSelector = () => {
+  return (
+    <div>
 
-  useEffect(() => {
-    if (!hasLoadedHome) {
-      console.log(hasLoadedHome+"this is from pageselector ")
-      const timeoutId = setTimeout(() => {
-        setLoading(false);
-      }, 3400);
-
-      return () => {
-        clearTimeout(timeoutId);
-      };
-    }
-  }, [hasLoadedHome]);
-
-  return loading ? <LoadingScreen /> : <Home />;
+    </div>
+  )
 }
 
-export default PageSelector;
+export default PageSelector

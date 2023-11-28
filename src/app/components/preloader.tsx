@@ -69,7 +69,7 @@ const Balls = styled.div`
   }
 `;
 
-const LoadingScreen = () => {
+const Preloader = () => {
   const [animationData, setAnimationData] = useState(null);
   useEffect(() => {
     fetch('/animation.json')
@@ -91,4 +91,4 @@ const LoadingScreen = () => {
   );
 };
 
-export default LoadingScreen;
+export default Preloader;
