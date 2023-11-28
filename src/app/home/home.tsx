@@ -5,15 +5,13 @@ import Lottie from "lottie-react";
 
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
-import Navbar from './navbar';
-import Footer from './footer';
-import Landing from './landing';
-import Vision from './vison';
-import Goals from './goals';
-import SecondParallex from './secondparallex';
-import PhoneNavbar from './phone.nav';
-import { useRecoilState } from 'recoil';
-
+import Navbar from "../components/navbar";
+import Footer from '../components/footer';
+import Landing from '../components/landing';
+import Vision from '../components/vison';
+import Goals from '../components/goals';
+import SecondParallex from '../components/secondparallex';
+import PhoneNavbar from '../components/phone.nav';
 
 
 
