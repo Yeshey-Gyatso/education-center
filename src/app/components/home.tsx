@@ -1,5 +1,5 @@
 "use client";
-import LoadingScreen from './loader';
+
 import React, { useEffect, useState } from "react";
 import Lottie from "lottie-react";
 
@@ -25,6 +25,8 @@ export default function Home() {
   
   useEffect(() => {
     setHasLoadedHome(true);
+    console.log(hasLoadedHome+"this is from home ")
+    
   }, []);
 
   
