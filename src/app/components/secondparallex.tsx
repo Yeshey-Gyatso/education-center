@@ -23,7 +23,7 @@ const SecondParallex = () => {
       <div className='md: w-1/2 '>
       </div>
       <div className=" hidden rounded-s-full bg-sky-400 mt-24 h-32 w-2/4  md:flex items-center ">
-    <Lottie className='relative inset-60' animationData={animationData} loop={true} /> 
+       <Lottie className='relative inset-60' animationData={animationData} loop={true} /> 
       </div>
       <div className=' absolute p-5 md:p-10 bg-black/70 rounded-3xl hover:scale-110 duration-300 '>
         <h1 className=' p-10 cursor-default text-2xl md:text-5xl font-bold text-white'> "Your first step towards success." </h1>
