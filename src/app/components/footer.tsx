@@ -2,8 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 const Footer = () => {
   return (
-    <div className=' w-full h-full bg-gray-200'>
-      <div className='container mx-auto px-4 '>
+    <div className=' w-full h-full bg-gray-200 flex flex-col'>
         <div className='mt-20 flex flex-col md:flex-row items-center justify-evenly h-full '>
           <div className=' p-5'>
             <img src="/logo.png" className=' rounded-lg h-56 w-56'  alt="image of logo" />
@@ -13,7 +12,7 @@ const Footer = () => {
         <h5 className="text-lg mt-0 mb-2 text-gray-600">
           Find us on any of these platforms, we respond 1-2 business days.
         </h5>
-        <div className="mt-4 lg:mb-0 mb-6 flex">
+        <div className="mt-4 lg:mb-0 mb-6 flex gap-10">
           <div className=' -mt-1 hover:scale-105
           transition-transform duration-300 ease-in-out'>
           <Link href="https://www.youtube.com/channel/UCyLuGOimahg8ci6_dFgsLBw">
@@ -121,11 +120,11 @@ const Footer = () => {
       </div>
     </div>
 
-        </div>
+        </div>f
            
         </div>
         </div>
-       </div>
+   
       
     </div>
   )

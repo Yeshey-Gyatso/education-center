@@ -5,7 +5,8 @@ import Link from 'next/link'
 
 const Goals = () => {
   return (
-    <div className="bg-yellow-400 h-screen w-screen p-2 md:p-0   flex flex-col justify-center md:flex-row  items-center ">
+    <div className="bg-yellow-400 h-screen w-screen p-2 md:p-0 gap-10 
+    flex flex-col justify-center md:flex-row  items-center ">
        <Image className=' opacity-10'
         src="/lib.jpg"
         alt="Background Image"  
