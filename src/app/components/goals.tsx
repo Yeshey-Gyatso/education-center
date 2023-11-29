@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Goals = () => {
   return (
-    <div className="bg-yellow-400 h-screen w-screen p-2 md:p-0  md:flex flex-row  items-center ">
+    <div className="bg-yellow-400 h-screen w-screen p-2 md:p-0   flex flex-col justify-center md:flex-row  items-center ">
        <Image className=' opacity-10'
         src="/lib.jpg"
         alt="Background Image"  
@@ -13,9 +13,12 @@ const Goals = () => {
         objectFit="cover"
         loading="lazy"
       />
-          <h1 className=' text-2xl md:text-5xl ml-10 p-5 font-serif text-zinc-700 font-bold
+      <div>
+      <h1 className=' text-2xl md:text-5xl ml-10 p-5 font-serif text-zinc-700 font-bold
            border-b-8 border-yellow-700 border-l-8 border-t-2 border-r-2 cursor-default
           '>OUR OBJECTIVES:</h1>
+      </div>
+          
           <div className=' flex flex-col justify-center items-center'>
           
             <ul className='lg:ml-40 font-serif'>
