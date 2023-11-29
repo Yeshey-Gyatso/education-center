@@ -37,7 +37,7 @@ const Footer = () => {
           
           <div className='hover:scale-105
           transition-transform duration-300 ease-in-out'>
-        <Link href="https://www.instagram.com/explore/"><img 
+        <Link href="https://www.instagram.com/pedestaleducation/"><img 
         className=' h-8 w-10'
         src="ig.svg" alt="" /></Link>
           </div> 

@@ -40,7 +40,7 @@ export default function Home() {
         </ParallaxLayer>
 
         <ParallaxLayer sticky={{ start: 1, end: 2.05 }} 
-        className=' relative -z-10   sm:z-10 flex justify-start items-center '>
+        className=' relative -z-10 flex justify-start items-center '>
           <div className=" md:-ml-2 bg-purple-400 md:h-32 md:w-2/4 flex items-center ">
             <Lottie className='' animationData={animationData2} loop={true} />
            <p className=' font-sans md:text-xl'>"Welcome to Pedestal Education"</p>
@@ -53,7 +53,7 @@ export default function Home() {
          <Vision/>
         </ParallaxLayer>
         <ParallaxLayer offset={2.5} speed={1.5} 
-        className='flex justify-end '
+        className='relative flex justify-end z-20 '
         >
           <SecondParallex/>
         </ParallaxLayer>
