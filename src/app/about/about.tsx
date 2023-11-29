@@ -1,10 +1,14 @@
 import React from 'react'
 import Navbar from '../components/navbar'
+import PhoneNavbar from '../components/phone.nav'
 
 const About = () => {
   return (
     <div className='h-screen w-screen overflow-x-hidden'>
       <Navbar/>
+      <div className=' md:hidden fixed right-0 z-10'>
+      <PhoneNavbar/>
+    </div>
     <div className='flex flex-col  h-screen'>
        {/* Header */}
        <div className='bg-cyan-600 h-40 w-screen flex justify-center items-center'>

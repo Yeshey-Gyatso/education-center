@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Navbar from '../components/navbar'
 import FacultyCard from './facultycard';
 import { FacultyData } from './facultytypes';
+import PhoneNavbar from '../components/phone.nav';
 const Faculty = () => {
  
   const [facultyData, setFacultyData]=useState<FacultyData[]>([
@@ -109,6 +110,9 @@ const Faculty = () => {
   return (
     <div className="h-screen w-screen overflow-x-hidden cursor-default">
     <Navbar />
+    <div className=' md:hidden fixed right-0 z-10'>
+      <PhoneNavbar/>
+    </div>
     <div className="flex flex-col h-screen">
       <div className="bg-cyan-600 h-40 w-screen flex justify-center items-center">
         <h1 className="text-2xl  p-5">Faculty</h1>

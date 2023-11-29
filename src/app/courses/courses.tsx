@@ -1,11 +1,15 @@
 import React from 'react'
 import Navbar from '../components/navbar'
 import Link from 'next/link'
+import PhoneNavbar from '../components/phone.nav'
 
 const Courses = () => {
   return (
     <div className='h-screen w-screen overflow-x-hidden'>
     <Navbar/>
+    <div className=' md:hidden fixed right-0 z-10'>
+      <PhoneNavbar/>
+    </div>
   <div className='flex flex-col  h-screen cursor-default'>
     <div className='bg-cyan-600 h-40 w-screen flex justify-center items-center '>
       <h1 className=' text-2xl p-5'>Courses</h1>

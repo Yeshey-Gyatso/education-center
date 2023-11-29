@@ -16,7 +16,7 @@ export default function PhoneNavbar() {
        <div className="text-sm lg:flex-grow ">
          <ul className=' flex flex-col gap-4 items-center p-2 -mt-1 '>
            <li className='hover:scale-105 transition-transform duration-300 ease-in-out'>
-             <Link href="/">Home</Link>
+             <Link href="/home">Home</Link>
            </li>
            <li className='hover:scale-105 transition-transform duration-300 ease-in-out'>
              <Link href="/about">About Us</Link>

@@ -6,6 +6,7 @@ import { ImLocation2 } from "react-icons/im";
 // import emailjs from '@emailjs/browser';
 import React, { useRef } from "react";
 import { SubmitHandler, useForm } from 'react-hook-form';
+import PhoneNavbar from "../components/phone.nav";
 
 type Inputs = {
 email:string;
@@ -24,6 +25,9 @@ const { register, handleSubmit } = useForm<Inputs>();
   return (
     <div className="h-screen md:h-screen w-screen  overflow-x-hidden">
       <Navbar />
+      <div className=' md:hidden fixed right-0 z-10'>
+      <PhoneNavbar/>
+    </div>
       <div
         id="contact"
         className="relative w-full h-full   md:p-0 
@@ -33,12 +37,12 @@ const { register, handleSubmit } = useForm<Inputs>();
      "
       >
         <div
-          className=" flex w-screen flex-col justify-center md:max-w-screen-lg md:mx-auto h-full
-        md:pt-30 "
+          className=" flex w-screen flex-col justify-center md:max-w-screen-lg md:mx-auto
+           h-screen p-2  md:pt-30 "
         >
-          <div className=" md:pb-8 md:pt-20 p-10 ">
+          <div className=" md:pb-8 md:pt-20 tall:px-10  ">
             <p
-              className=" md:text-4xl font-bold inline border-b-4
+              className=" text-2xl md:text-4xl font-bold inline border-b-4
                  border-gray-500 cursor-default 
                 "
             >
@@ -48,7 +52,8 @@ const { register, handleSubmit } = useForm<Inputs>();
               Submit the form below to get in touch with me
             </p>
           </div>
-          <div className="flex flex-col-reverse md:flex-row justify-between items-center">
+          <div className="flex flex-col-reverse 
+          md:flex-row justify-between items-center">
             <div className="flex-1">
               <div className="hidden md:flex">
                 <img
@@ -93,7 +98,7 @@ const { register, handleSubmit } = useForm<Inputs>();
               onSubmit={handleSubmit(onSubmit)}
             >
               <input
-                type="text"
+                type="email"
 
                 {...register('email')}
                 placeholder="Enter your email"
