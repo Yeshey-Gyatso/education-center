@@ -52,7 +52,7 @@ const Navbar = () => {
           </li>
           <li className='hover:scale-105
           transition-transform duration-300 ease-in-out'>
-          <Link href="https://www.facebook.com/"><img 
+          <Link href="https://www.facebook.com/profile.php?id=61553292999808"><img 
         className=' h-7 w-10'
         src="fb.svg" alt="" /></Link>
           </li>
