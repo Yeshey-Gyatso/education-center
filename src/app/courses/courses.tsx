@@ -66,21 +66,22 @@ const Courses = () => {
 <div className='flex flex-col relative '>
   <div className=' h-full'>
   <p className='text-xl tracking-wider font-bold underline p-5   '>
-  Optional subject course for UPSC/SPSC
+  PEDESTAL EDUCATION is delighted to announce availability of coaching for optionals in following subjects:
   </p>
   </div>
   <br />
   <ul className="list-disc space-y-2 text-base p-4 ">
-    <li >Duration: 10-month long course to cover General Studies syllabus.</li>
-    <li >Academic Subjects: Course covers core subjects, including History, Geography, Polity, and social studies.
-    This course will also cover UPSC(mains) specific topics.</li>
-    <li >Skill Development: In addition to academic content, foundation courses often focus on essential skills like study techniques and communication.</li>
-    <li >Study Habits and Time Management: Students are taught how to manage their time effectively and develop good study habits.</li>
-    <li >Career Guidance: Counseling on government exam calendar and guide students according to their strength.</li>
-    <li >Assessment and Evaluation: Regular assessments, quizzes, discussion, and answer writing exercises gauge students' progress and understanding.</li>
-    <li >Mentoring and Counseling: Mentoring and counseling to help students navigate their academic journey and address any challenges they may face.</li>
-    <li >Flexible Content: The content of integrated foundation courses may be tailored to the specific needs and goals of the students, whether they are absolute beginners or students who have already been preparing.</li>
-</ul>
+ <li>Anthropology</li> 
+ <li>Sociology</li> 
+ <li>Public Administration</li> 
+ <li>Political science and International Relations</li>
+  </ul>
+  <p className='text-lg tracking-wider'>Why optional?</p>
+  <br />
+  <p>The role that Optional plays  in helping you clear your written mains examination cannot be emphasized enough.
+    <br /> Not only does doing good in optional allows you a chance to qualify for interview ,but it also gives you an edge over other candidates in the concerned examination.
+    <br /> Right from Upsc civil services to spsc civil services such as US, Dy SP, AO, SI etc an optional has ben made mandatory. <br />
+   The fact that a candidate has a good grip over certain area which will help him/her in future course of duty is usually checked via the optional subjects in the exam.</p>
 <Link className='text-black bg-transparent px-6 py-3 
                  my-8 mx-auto flex items-center rounded-md border
                   border-black hover:scale-110 duration-300'
