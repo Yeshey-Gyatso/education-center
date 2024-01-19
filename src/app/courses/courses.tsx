@@ -82,6 +82,9 @@ const Courses = () => {
     <br /> Not only does doing good in optional allows you a chance to qualify for interview ,but it also gives you an edge over other candidates in the concerned examination.
     <br /> Right from Upsc civil services to spsc civil services such as US, Dy SP, AO, SI etc an optional has ben made mandatory. <br />
    The fact that a candidate has a good grip over certain area which will help him/her in future course of duty is usually checked via the optional subjects in the exam.</p>
+
+   <br />
+   <br />
 <Link className='text-black bg-transparent px-6 py-3 
                  my-8 mx-auto flex items-center rounded-md border
                   border-black hover:scale-110 duration-300'
@@ -91,13 +94,27 @@ const Courses = () => {
                 </Link>
 
 </div>
+
 <div className=''>
 <img src="map.png"  className='  rounded-3xl  ' alt="Image Description" />
         
       </div>
 </div>
+<div className='p-5'>
+<p className=' text-base md:text-xl font-bold underline '> Optional Courses at PEDESTAL EDUCATION offers students with following advantages</p>
+    <ul className='list-disc space-y-2 text-base p-4 '>
+      <li>Coverage of the complete syllabus</li>
+      <li>Debates to help students achieve conceptual clarity</li>
+      <li>Round the year personal interaction to clarify doubts</li>
+      <li>Emphasis on answer writing, UPSC pattern Mock Tests series</li>
+      <li>Personal Attention to every student</li>
+      <li>Highlighting of linkages with current affairs</li>
+      <li>Emerging latest studies & reports</li>
 
-    
+
+    </ul>
+</div>
+   
 
   </div>
   
