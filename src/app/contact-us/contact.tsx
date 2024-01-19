@@ -70,14 +70,15 @@ const { register, handleSubmit } = useForm<Inputs>();
                   <span className="mr-2">
                     <FiPhoneCall />
                   </span>
-                  <span className="tracking-wider">0123456789</span>
+                  <span className="tracking-wider">7407383714
+      </span>
                 </li>
                 <li className="flex items-center mb-4">
                   <span className="mr-2">
                     <LuMail />
                   </span>{" "}
                   {/* Use an email icon of your choice */}
-                  <span>coaching@pedesteleducation.in</span>
+                  <span>pedestal.edu.sikkim@gmail.com</span>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2">
