@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="mt-4 lg:mb-0 mb-6 flex gap-10">
           <div className=' -mt-1 hover:scale-105
           transition-transform duration-300 ease-in-out'>
-          <Link href="https://www.youtube.com/channel/UCyLuGOimahg8ci6_dFgsLBw">
+          <Link href="https://www.youtube.com/@PedestalEducation">
             <img 
         className=' h-10 w-9'
         src="yt.svg" alt="" /> </Link>
