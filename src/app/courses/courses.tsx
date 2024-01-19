@@ -65,7 +65,7 @@ const Courses = () => {
 <div className=' px-6 py-10 md:p-20 w-screen bg-gray-300 flex flex-col-reverse md:flex-row justify-center items-center gap-10 md:gap-20'>
 <div className='flex flex-col relative '>
   <div className=' h-full'>
-  <p className='text-xl tracking-wider font-bold underline p-5   '>
+  <p className='text-xl tracking-wider font-bold underline p-5  '>
   PEDESTAL EDUCATION is delighted to announce availability of coaching for optionals in following subjects:
   </p>
   </div>
@@ -100,9 +100,9 @@ const Courses = () => {
         
       </div>
 </div>
-<div className='p-5'>
+<div className=' flex p-5 flex-col justify-center items-center  '>
 <p className=' text-base md:text-xl font-bold underline '> Optional Courses at PEDESTAL EDUCATION offers students with following advantages</p>
-    <ul className='list-disc space-y-2 text-base p-4 '>
+    <ul className='list-disc space-y-2 p-4 text-lg '>
       <li>Coverage of the complete syllabus</li>
       <li>Debates to help students achieve conceptual clarity</li>
       <li>Round the year personal interaction to clarify doubts</li>
